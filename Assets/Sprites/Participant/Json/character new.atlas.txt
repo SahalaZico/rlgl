@@ -1,0 +1,146 @@
+character new.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+1
+	bounds: 560, 63, 28, 45
+10
+	bounds: 332, 15, 65, 46
+	rotate: 90
+11
+	bounds: 429, 80, 51, 46
+	rotate: 90
+12
+	bounds: 379, 191, 60, 46
+	rotate: 90
+2
+	bounds: 519, 157, 37, 46
+3
+	bounds: 519, 205, 37, 46
+4
+	bounds: 522, 110, 37, 45
+5
+	bounds: 519, 9, 37, 46
+6
+	bounds: 477, 157, 40, 46
+7
+	bounds: 558, 206, 35, 45
+8
+	bounds: 476, 205, 40, 46
+9
+	bounds: 380, 2, 40, 46
+	rotate: 90
+color 1/Helmet
+	bounds: 142, 142, 109, 106
+	offsets: 1, 0, 110, 106
+	rotate: 90
+color 2/Helmet
+	bounds: 142, 142, 109, 106
+	offsets: 1, 0, 110, 106
+	rotate: 90
+color 1/body
+	bounds: 227, 45, 107, 103
+	rotate: 90
+color 1/ear
+	bounds: 590, 79, 30, 27
+	rotate: 90
+color 2/ear
+	bounds: 590, 79, 30, 27
+	rotate: 90
+color 1/hand win
+	bounds: 561, 147, 24, 57
+	offsets: 1, 0, 25, 57
+color 2/hand win
+	bounds: 561, 147, 24, 57
+	offsets: 1, 0, 25, 57
+color 1/hips
+	bounds: 322, 146, 105, 55
+	rotate: 90
+color 2/hips
+	bounds: 322, 146, 105, 55
+	rotate: 90
+color 1/lower hand
+	bounds: 477, 99, 43, 56
+	offsets: 0, 0, 47, 56
+color 1/lower leg
+	bounds: 587, 170, 30, 34
+color 2/lower leg
+	bounds: 587, 170, 30, 34
+color 1/lower leg up
+	bounds: 147, 3, 36, 32
+	offsets: 1, 1, 38, 34
+color 2/lower leg up
+	bounds: 147, 3, 36, 32
+	offsets: 1, 1, 38, 34
+color 1/palm hand
+	bounds: 109, 4, 36, 35
+	offsets: 0, 0, 37, 35
+color 2/palm hand
+	bounds: 109, 4, 36, 35
+	offsets: 0, 0, 37, 35
+color 1/palm hand up
+	bounds: 429, 133, 49, 46
+	rotate: 90
+color 2/palm hand up
+	bounds: 429, 133, 49, 46
+	rotate: 90
+color 1/shadow
+	bounds: 2, 8, 105, 80
+	offsets: 2, 1, 108, 82
+color 2/shadow
+	bounds: 2, 8, 105, 80
+	offsets: 2, 1, 108, 82
+color 1/shoe lose
+	bounds: 558, 13, 38, 42
+color 2/shoe lose
+	bounds: 558, 13, 38, 42
+color 1/shoes
+	bounds: 561, 111, 31, 34
+color 2/shoes
+	bounds: 561, 111, 31, 34
+color 1/shoes up
+	bounds: 427, 197, 47, 54
+color 2/shoes up
+	bounds: 427, 197, 47, 54
+color 1/smoke
+	bounds: 250, 179, 70, 72
+	offsets: 2, 0, 72, 72
+color 2/smoke
+	bounds: 250, 179, 70, 72
+	offsets: 2, 0, 72, 72
+color 1/uper leg up
+	bounds: 386, 125, 41, 64
+	offsets: 0, 0, 43, 64
+color 2/uper leg up
+	bounds: 386, 125, 41, 64
+	offsets: 0, 0, 43, 64
+color 1/upper hand
+	bounds: 211, 7, 69, 50
+	rotate: 180
+color 1/upper leg
+	bounds: 282, 3, 46, 40
+color 1/upper leg lose
+	bounds: 332, 90, 52, 54
+color 2/upper leg lose
+	bounds: 332, 90, 52, 54
+color 1/upper leg win
+	bounds: 432, 9, 47, 43
+	rotate: 90
+color 2/upper leg win
+	bounds: 432, 9, 47, 43
+	rotate: 90
+color 2/body
+	bounds: 118, 37, 107, 103
+color 2/lower hand
+	bounds: 474, 27, 43, 56
+	offsets: 0, 0, 47, 56
+	rotate: 180
+color 2/upper hand
+	bounds: 380, 44, 69, 50
+	rotate: 90
+color 2/upper leg
+	bounds: 519, 57, 46, 39
+	offsets: 0, 1, 46, 40
+	rotate: 90
+special hair
+	bounds: 2, 90, 138, 161

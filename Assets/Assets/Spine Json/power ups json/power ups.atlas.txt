@@ -1,0 +1,77 @@
+power ups.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+bg light
+	bounds: 430, 301, 318, 352
+	offsets: 232, 344, 821, 813
+bg light 2
+	bounds: 2, 632, 416, 384
+	offsets: 50, 50, 516, 484
+bomb
+	bounds: 274, 37, 262, 328
+	rotate: 90
+bomb explode
+	bounds: 745, 689, 262, 327
+	offsets: 285, 392, 821, 813
+bomb explosion
+	bounds: 420, 655, 361, 323
+	offsets: 0, 0, 362, 324
+	rotate: 90
+cash bling
+	bounds: 894, 41, 68, 70
+	offsets: 18, 13, 100, 100
+cash shine
+	bounds: 2, 296, 426, 334
+	offsets: 202, 353, 821, 813
+eelctric1
+	bounds: 2, 37, 239, 257
+	offsets: 8, 10, 258, 276
+electric2
+	bounds: 750, 113, 240, 288
+	offsets: 10, 9, 259, 307
+electric3
+	bounds: 750, 403, 284, 270
+	offsets: 10, 11, 304, 291
+	rotate: 90
+eletric
+	bounds: 740, 2, 152, 109
+	offsets: 12, 12, 176, 133
+speed arrow1
+	bounds: 243, 213, 99, 81
+	offsets: 0, 1, 99, 82
+speed arrow2
+	bounds: 243, 213, 99, 81
+	offsets: 0, 1, 99, 82
+speed wing L
+	bounds: 604, 33, 130, 134
+	offsets: 1, 0, 131, 134
+	rotate: 90
+speed wing R
+	bounds: 604, 165, 130, 134
+	offsets: 1, 0, 131, 134
+
+power ups_2.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Cash +
+	bounds: 2, 370, 130, 125
+	offsets: 1, 1, 132, 126
+time +
+	bounds: 2, 370, 130, 125
+	offsets: 1, 1, 132, 126
+cash
+	bounds: 317, 226, 304, 238
+	offsets: 0, 0, 304, 239
+	rotate: 180
+electrocute
+	bounds: 85, 222, 273, 279
+	rotate: 90
+speed
+	bounds: 548, 2, 336, 245
+	rotate: 90
+time
+	bounds: 181, 12, 271, 249

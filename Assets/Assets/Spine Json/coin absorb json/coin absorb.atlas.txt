@@ -1,0 +1,87 @@
+coin absorb.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+CoinBorder
+	bounds: 2, 203, 45, 380
+	rotate: 90
+Flare_03_bl
+	bounds: 845, 196, 154, 154
+Glow_Neo
+	bounds: 2, 250, 256, 256
+Spin_noBorder
+	bounds: 260, 269, 236, 237
+coin/11.png/Flip-In2_00
+	bounds: 2, 82, 119, 119
+	offsets: 26, 18, 172, 157
+coin/11.png/Flip-In2_01
+	bounds: 476, 83, 119, 98
+	offsets: 26, 30, 172, 157
+coin/11.png/Flip-In2_02
+	bounds: 839, 40, 119, 76
+	offsets: 26, 42, 172, 157
+coin/11.png/Flip-In2_03
+	bounds: 244, 26, 119, 56
+	offsets: 26, 53, 172, 157
+coin/11.png/Flip-In2_04
+	bounds: 960, 75, 119, 34
+	offsets: 26, 65, 172, 157
+	rotate: 90
+coin/11.png/Flip-In2_05
+	bounds: 260, 255, 119, 13
+	offsets: 26, 76, 172, 157
+coin/11.png/Flip-In2_06
+	bounds: 486, 2, 119, 26
+	offsets: 26, 65, 172, 157
+coin/11.png/Flip-In2_07
+	bounds: 486, 30, 119, 51
+	offsets: 26, 52, 172, 157
+coin/11.png/Flip-In2_08
+	bounds: 123, 7, 119, 75
+	offsets: 26, 39, 172, 157
+coin/11.png/Flip-In2_09
+	bounds: 355, 103, 119, 98
+	offsets: 26, 27, 172, 157
+coin/11.png/Flip-In2_10
+	bounds: 476, 183, 143, 135
+	offsets: 17, 14, 172, 157
+coin/11.png/Flip-In2_11
+	bounds: 597, 84, 119, 97
+	offsets: 26, 32, 172, 157
+coin/11.png/Flip-In2_12
+	bounds: 839, 118, 119, 76
+	offsets: 26, 43, 172, 157
+coin/11.png/Flip-In2_13
+	bounds: 365, 27, 119, 54
+	offsets: 26, 54, 172, 157
+coin/11.png/Flip-In2_14
+	bounds: 728, 5, 119, 33
+	offsets: 26, 65, 172, 157
+coin/11.png/Flip-In2_15
+	bounds: 244, 12, 119, 12
+	offsets: 26, 76, 172, 157
+coin/11.png/Flip-In2_16
+	bounds: 621, 199, 119, 11
+	offsets: 26, 74, 172, 157
+	rotate: 90
+coin/11.png/Flip-In2_17
+	bounds: 607, 37, 119, 45
+	offsets: 26, 56, 172, 157
+coin/11.png/Flip-In2_18
+	bounds: 718, 106, 119, 80
+	offsets: 26, 38, 172, 157
+coin/11.png/Flip-In2_19
+	bounds: 123, 86, 119, 115
+	offsets: 26, 19, 172, 157
+dust spark
+	bounds: 244, 84, 109, 117
+light_yellow
+	bounds: 845, 352, 154, 154
+light_yellow2
+	bounds: 497, 320, 186, 186
+shine white
+	bounds: 685, 348, 158, 158
+shine yellow
+	bounds: 637, 187, 159, 194
+	rotate: 90

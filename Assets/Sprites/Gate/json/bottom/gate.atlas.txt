@@ -1,0 +1,49 @@
+gate.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+Gate L
+	bounds: 582, 194, 279, 251
+Gate R
+	bounds: 2, 2, 274, 252
+	offsets: 1, 0, 275, 252
+Gem L
+	bounds: 431, 216, 39, 38
+	offsets: 1, 0, 41, 38
+Gem R
+	bounds: 472, 218, 39, 36
+	offsets: 0, 1, 39, 38
+Pillars
+	bounds: 2, 256, 578, 225
+gate
+	bounds: 582, 447, 487, 252
+	offsets: 1, 1, 489, 254
+	rotate: 90
+gate broke 1
+	bounds: 431, 7, 155, 185
+gate broke 2
+	bounds: 588, 48, 144, 193
+	offsets: 1, 0, 145, 193
+	rotate: 90
+gate broke 3
+	bounds: 462, 775, 114, 159
+	offsets: 0, 0, 114, 160
+gate broke 4
+	bounds: 836, 447, 132, 127
+	rotate: 90
+gate broke 5
+	bounds: 783, 46, 146, 143
+	offsets: 0, 0, 147, 143
+	rotate: 90
+gate broke 6
+	bounds: 278, 55, 151, 199
+	offsets: 0, 0, 151, 200
+gate broke 7
+	bounds: 462, 630, 113, 143
+gate broke 8
+	bounds: 836, 581, 119, 131
+gate broke 9
+	bounds: 462, 513, 85, 115
+hit fx
+	bounds: 2, 483, 458, 451
+	offsets: 1, 1, 460, 453

@@ -1,0 +1,42 @@
+electrocute.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+center
+	bounds: 700, 931, 77, 73
+	offsets: 12, 11, 101, 96
+dome
+	bounds: 2, 2, 357, 298
+	offsets: 30, 77, 411, 407
+dome blue
+	bounds: 2, 642, 362, 362
+	offsets: 27, 15, 411, 407
+strike 1
+	bounds: 2, 309, 340, 331
+	offsets: 5, 7, 351, 343
+strike 1 additive
+	bounds: 344, 302, 338, 329
+	offsets: 9, 12, 358, 350
+	rotate: 90
+strike 2
+	bounds: 675, 16, 318, 343
+	offsets: 15, 7, 339, 358
+	rotate: 90
+strike3
+	bounds: 366, 671, 333, 332
+	offsets: 10, 10, 350, 349
+	rotate: 90
+strike3  additive
+	bounds: 675, 336, 333, 332
+	offsets: 12, 11, 355, 353
+	rotate: 90
+
+electrocute_2.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+strike 2  additive
+	bounds: 2, 2, 316, 334
+	offsets: 18, 10, 344, 364

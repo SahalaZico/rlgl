@@ -1,0 +1,41 @@
+dynamite.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+base
+	bounds: 351, 125, 364, 66
+	rotate: 90
+dinamit 1
+	bounds: 596, 129, 255, 51
+	offsets: 0, 1, 256, 52
+	rotate: 90
+dinamit 2
+	bounds: 649, 129, 223, 50
+	offsets: 0, 0, 223, 51
+	rotate: 90
+fire2
+	bounds: 2, 2, 175, 165
+	offsets: 0, 1, 176, 167
+fire31
+	bounds: 2, 323, 198, 166
+fire4
+	bounds: 479, 129, 137, 115
+	offsets: 1, 0, 139, 116
+	rotate: 90
+fire6
+	bounds: 2, 169, 216, 152
+	offsets: 1, 0, 218, 153
+fire7
+	bounds: 220, 169, 209, 129
+	offsets: 0, 1, 209, 131
+	rotate: 90
+lamp
+	bounds: 179, 26, 347, 40
+light
+	bounds: 419, 129, 360, 58
+	offsets: 8, 8, 377, 76
+	rotate: 90
+light dim
+	bounds: 179, 68, 329, 55
+	offsets: 22, 28, 368, 98

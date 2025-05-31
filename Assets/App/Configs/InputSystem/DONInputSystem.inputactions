@@ -1,0 +1,34 @@
+{
+    "name": "DONInputSystem",
+    "maps": [
+        {
+            "name": "CharacterControl",
+            "id": "970aaba8-9feb-494e-aded-18955a1f49fd",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "fe90c6a5-f243-463e-8927-b25aeb6ab3ea",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ff86ab68-412c-4ca2-95f3-50aa38ad4a39",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

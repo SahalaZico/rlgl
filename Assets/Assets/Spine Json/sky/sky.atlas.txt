@@ -1,0 +1,47 @@
+sky.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+cloud bg1
+	bounds: 458, 589, 418, 397
+cloud bg2
+	bounds: 772, 111, 476, 185
+	offsets: 1, 1, 481, 188
+	rotate: 90
+cloud1
+	bounds: 421, 306, 281, 349
+	offsets: 0, 1, 281, 350
+	rotate: 90
+cloud1 variant
+	bounds: 2, 11, 244, 240
+	offsets: 1, 1, 245, 241
+cloud2
+	bounds: 421, 11, 293, 326
+	rotate: 90
+cloud3
+	bounds: 248, 2, 249, 138
+	offsets: 0, 0, 249, 139
+	rotate: 90
+cloud4
+	bounds: 749, 2, 260, 107
+	offsets: 0, 0, 261, 107
+cloud5
+	bounds: 877, 700, 286, 123
+	rotate: 90
+mt1
+	bounds: 2, 253, 417, 357
+	offsets: 0, 0, 417, 358
+mt2
+	bounds: 2, 612, 454, 374
+
+sky_2.png
+	size: 512, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+mist
+	bounds: 2, 4, 208, 206
+	offsets: 3, 2, 215, 210
+sky
+	bounds: 212, 2, 271, 208

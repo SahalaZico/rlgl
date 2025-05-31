@@ -1,0 +1,153 @@
+Player_Character.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Group 14
+	bounds: 29, 95, 297, 436
+	rotate: 270
+Hair_2
+	bounds: 683, 144, 76, 102
+Head_1
+	bounds: 192, 241, 167, 171
+	rotate: 270
+Head_2
+	bounds: 782, 342, 175, 169
+	offsets: 0, 0, 176, 170
+Head_3
+	bounds: 197, 407, 215, 219
+	rotate: 180
+Head_4
+	bounds: 413, 356, 156, 191
+	offsets: 1, 0, 158, 192
+	rotate: 90
+Head_5
+	bounds: 2, 466, 193, 188
+	offsets: 1, 0, 194, 189
+Head_6
+	bounds: 771, 830, 171, 190
+	offsets: 1, 0, 173, 191
+	rotate: 90
+L  arm lower
+	bounds: 712, 9, 47, 86
+L arm upper
+	bounds: 967, 705, 51, 47
+L foot
+	bounds: 193, 407, 37, 37
+L leg lower
+	bounds: 293, 152, 46, 52
+L leg upper
+	bounds: 771, 767, 48, 61
+Layer 598
+	bounds: 2, 341, 189, 123
+R foot
+	bounds: 982, 266, 40, 53
+R leg lower
+	bounds: 635, 190, 43, 46
+R lower arm
+	bounds: 197, 582, 41, 45
+R palm
+	bounds: 5, 219, 47, 42
+R upper arm
+	bounds: 440, 191, 66, 44
+Reward_High reward
+	bounds: 2, 656, 387, 345
+Reward_L arm
+	bounds: 795, 57, 96, 110
+	rotate: 270
+Reward_L leg
+	bounds: 125, 31, 97, 76
+Reward_R arm
+	bounds: 85, 64, 96, 110
+	rotate: 90
+Reward_R leg
+	bounds: 419, 2, 97, 76
+	rotate: 180
+Reward_Shape 593
+	bounds: 391, 514, 364, 145
+Reward_body
+	bounds: 458, 232, 124, 122
+Reward_low reward
+	bounds: 760, 513, 262, 301
+	rotate: 180
+Reward_mid reward
+	bounds: 391, 661, 378, 340
+Shot_L arm
+	bounds: 725, 94, 91, 114
+	rotate: 180
+Shot_L leg
+	bounds: 480, 152, 112, 86
+Shot_R arm
+	bounds: 908, 98, 91, 114
+	rotate: 270
+Shot_R leg
+	bounds: 582, 122, 112, 86
+Shot_blood1
+	bounds: 197, 629, 25, 128
+	rotate: 90
+Shot_blood2
+	bounds: 584, 238, 105, 101
+Shot_body
+	bounds: 691, 240, 126, 99
+Shot_bullet copy
+	bounds: 771, 730, 20, 37
+Stop_1_L arm
+	bounds: 776, 18, 100, 95
+	rotate: 180
+Stop_1_L leg
+	bounds: 956, 754, 51, 123
+Stop_1_R arm
+	bounds: 907, 40, 100, 95
+	rotate: 180
+Stop_1_R leg
+	bounds: 963, 878, 51, 123
+Stop_1_body
+	bounds: 191, 178, 126, 74
+Stop_1_hip
+	bounds: 524, 56, 106, 55
+Stop_2_L lower arm
+	bounds: 959, 344, 58, 96
+Stop_2_L upper arm
+	bounds: 566, 17, 78, 39
+Stop_2_L upper leg
+	bounds: 2, 262, 59, 77
+Stop_2_R lower arm
+	bounds: 971, 432, 51, 104
+Stop_2_R upper arm
+	bounds: 343, 390, 68, 43
+Stop_3_L arm
+	bounds: 428, 39, 107, 101
+	rotate: 270
+Stop_3_L leg
+	bounds: 2, 63, 65, 97
+Stop_3_R arm
+	bounds: 604, 41, 107, 101
+	rotate: 180
+Stop_3_R leg
+	bounds: 330, 46, 65, 97
+	rotate: 90
+body
+	bounds: 325, 172, 114, 105
+bullet
+	bounds: 832, 137, 190, 124
+dodge bullet L foot
+	bounds: 364, 284, 54, 43
+dodge bullet L leg lower
+	bounds: 234, 42, 85, 67
+dodge bullet Leg
+	bounds: 789, 184, 152, 76
+	offsets: 0, 0, 153, 76
+dodge bullet R foot
+	bounds: 327, 606, 50, 48
+dodge bullet R leg lower
+	bounds: 30, 17, 73, 47
+dodge bullet body
+	bounds: 830, 244, 153, 101
+dodge bulletL arm
+	bounds: 196, 97, 122, 54
+dodge bulletR arm
+	bounds: 461, 111, 63, 142
+	rotate: 90
+reticle
+	bounds: 606, 341, 174, 171
+	offsets: 4, 5, 182, 180

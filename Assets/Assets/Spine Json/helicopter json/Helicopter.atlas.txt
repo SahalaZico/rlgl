@@ -1,0 +1,116 @@
+Helicopter.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Ellipse 1172
+	bounds: 491, 668, 349, 167
+	rotate: 90
+Ellipse 1172 copy
+	bounds: 660, 668, 349, 167
+	rotate: 90
+Layer 840
+	bounds: 578, 154, 329, 167
+Layer 840 copy
+	bounds: 749, 337, 329, 167
+	rotate: 90
+Layer 840 copy 2
+	bounds: 235, 35, 341, 166
+Question_Mark
+	bounds: 268, 515, 81, 101
+	offsets: 1, 1, 83, 103
+Shape 836
+	bounds: 829, 745, 272, 185
+	offsets: 2, 1, 276, 187
+	rotate: 90
+Shape 837
+	bounds: 578, 2, 278, 150
+	offsets: 2, 1, 282, 152
+Shape 883
+	bounds: 375, 203, 714, 114
+	rotate: 90
+bomb
+	bounds: 2, 393, 47, 78
+chest piece3
+	bounds: 858, 36, 162, 116
+	offsets: 0, 0, 163, 117
+chest piece5
+	bounds: 27, 595, 27, 21
+	offsets: 1, 1, 29, 23
+chest piece6
+	bounds: 2, 582, 23, 34
+	offsets: 1, 1, 25, 36
+diamond skin
+	bounds: 275, 426, 87, 87
+	offsets: 1, 1, 89, 89
+fire1
+	bounds: 376, 927, 108, 90
+	offsets: 1, 1, 110, 92
+fire3
+	bounds: 241, 218, 131, 147
+	offsets: 1, 1, 132, 148
+fire5
+	bounds: 491, 323, 297, 256
+	offsets: 1, 1, 299, 258
+	rotate: 90
+glossy
+	bounds: 2, 618, 372, 399
+heli
+	bounds: 2, 36, 580, 271
+	rotate: 90
+hexagon skin
+	bounds: 829, 669, 86, 74
+	offsets: 1, 1, 88, 76
+triangle skin
+	bounds: 909, 258, 89, 77
+	offsets: 1, 0, 91, 78
+
+Helicopter_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+box closed
+	bounds: 246, 414, 266, 137
+	rotate: 90
+box movement fx
+	bounds: 369, 52, 172, 281
+	offsets: 1, 0, 174, 282
+	rotate: 90
+chest piece1
+	bounds: 2, 579, 119, 186
+	offsets: 0, 1, 120, 187
+chest piece2
+	bounds: 2, 390, 125, 187
+	offsets: 1, 0, 126, 187
+chest piece4
+	bounds: 2, 767, 136, 116
+	offsets: 4, 0, 140, 117
+fire2
+	bounds: 2, 2, 175, 165
+	offsets: 0, 1, 176, 167
+	rotate: 90
+fire31
+	bounds: 169, 11, 198, 166
+fire4
+	bounds: 2, 885, 137, 115
+	offsets: 1, 0, 139, 116
+fire6
+	bounds: 133, 179, 216, 152
+	offsets: 1, 0, 218, 153
+	rotate: 90
+fire7
+	bounds: 2, 179, 209, 129
+	offsets: 0, 1, 209, 131
+	rotate: 90
+heli cargo
+	bounds: 140, 790, 210, 157
+	rotate: 90
+open box bottom
+	bounds: 129, 506, 259, 116
+	rotate: 90
+open box light
+	bounds: 299, 616, 384, 247
+	rotate: 90
+open box top
+	bounds: 287, 226, 252, 187

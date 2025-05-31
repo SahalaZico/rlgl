@@ -1,0 +1,89 @@
+Doll Nightmare tittle spine.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+Layer 48
+	bounds: 2, 891, 860, 734
+	offsets: 0, 787, 865, 1537
+box
+	bounds: 638, 563, 134, 103
+	offsets: 0, 1, 134, 104
+chara1 body
+	bounds: 436, 668, 221, 388
+	rotate: 90
+chara1 hand
+	bounds: 215, 38, 95, 90
+chara1 head
+	bounds: 336, 127, 270, 309
+	rotate: 270
+chara1 shadow
+	bounds: 2, 45, 91, 129
+	offsets: 2, 2, 94, 134
+chara1 top body
+	bounds: 196, 413, 440, 253
+	rotate: 180
+chara2
+	bounds: 1611, 481, 355, 400
+chara2 feet
+	bounds: 95, 43, 118, 85
+	offsets: 1, 0, 120, 87
+chara2 head
+	bounds: 1027, 133, 213, 225
+chara2 shadow
+	bounds: 1027, 394, 503, 153
+	offsets: 0, 1, 504, 155
+chara3 body
+	bounds: 2, 130, 333, 295
+	rotate: 180
+chara3 head
+	bounds: 1242, 158, 202, 234
+chute
+	bounds: 1446, 79, 216, 210
+	offsets: 6, 0, 233, 215
+cloud
+	bounds: 1638, 916, 432, 335
+	rotate: 90
+copter1
+	bounds: 1664, 124, 249, 165
+	offsets: 0, 1, 249, 166
+copter2
+	bounds: 993, 2, 129, 134
+	rotate: 90
+doll
+	bounds: 864, 1074, 467, 551
+doll highlight
+	bounds: 1242, 9, 147, 166
+	offsets: 11, 11, 176, 188
+	rotate: 90
+effect1
+	bounds: 647, 217, 378, 141
+	offsets: 0, 0, 378, 143
+effect2
+	bounds: 864, 767, 380, 305
+	offsets: 0, 0, 382, 305
+explosion
+	bounds: 593, 360, 432, 187
+	offsets: 0, 0, 432, 192
+explosion bg1
+	bounds: 1532, 291, 392, 188
+	offsets: 0, 0, 392, 191
+explosion bg2
+	bounds: 2, 646, 432, 243
+	offsets: 0, 0, 432, 247
+explosion2
+	bounds: 647, 117, 344, 98
+flag
+	bounds: 312, 3, 94, 181
+	rotate: 90
+sky
+	bounds: 826, 549, 216, 384
+	rotate: 90
+smoke
+	bounds: 1246, 660, 432, 254
+smoke front
+	bounds: 1332, 916, 709, 304
+	rotate: 90
+track
+	bounds: 2, 428, 216, 182
+	rotate: 90

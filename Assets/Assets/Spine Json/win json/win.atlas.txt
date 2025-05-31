@@ -1,0 +1,88 @@
+win.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+BOARD RESULT
+	bounds: 2, 12, 224, 21
+	offsets: 18, 18, 259, 57
+REWARD copy
+	bounds: 2, 358, 572, 90
+	offsets: 40, 42, 652, 174
+WIN
+	bounds: 1072, 76, 117, 52
+	offsets: 0, 0, 118, 53
+arrow
+	bounds: 664, 288, 36, 33
+	offsets: 1, 1, 38, 34
+blueL
+	bounds: 514, 7, 77, 125
+	offsets: 28, 87, 123, 229
+blueR
+	bounds: 592, 323, 77, 125
+	offsets: 18, 87, 123, 229
+boxL
+	bounds: 1830, 107, 239, 125
+	rotate: 90
+boxR
+	bounds: 1703, 107, 239, 125
+	rotate: 90
+greenL
+	bounds: 1303, 2, 127, 127
+	offsets: 66, 83, 210, 226
+greenR
+	bounds: 775, 3, 127, 127
+	offsets: 17, 83, 210, 226
+light bg
+	bounds: 867, 463, 663, 674
+	offsets: 401, 372, 1465, 1346
+light bg screen
+	bounds: 2, 450, 863, 687
+	offsets: 94, 107, 1051, 941
+pink border
+	bounds: 1532, 348, 789, 374
+	offsets: 1, 1, 791, 376
+	rotate: 90
+redL
+	bounds: 988, 45, 82, 83
+	offsets: 29, 52, 129, 152
+redR
+	bounds: 904, 46, 82, 83
+	offsets: 18, 52, 129, 152
+screen black
+	bounds: 708, 129, 723, 332
+small screen
+	bounds: 2, 207, 280, 149
+	offsets: 0, 1, 280, 150
+speaker L
+	bounds: 343, 7, 125, 169
+	offsets: 1, 1, 127, 171
+	rotate: 90
+speaker R
+	bounds: 604, 10, 125, 169
+	offsets: 1, 1, 127, 171
+	rotate: 90
+top L
+	bounds: 1432, 109, 269, 106
+	offsets: 1, 1, 276, 113
+top R
+	bounds: 1432, 217, 269, 106
+	offsets: 6, 1, 276, 113
+trumpet L1
+	bounds: 284, 134, 197, 222
+trumpet L1top
+	bounds: 1072, 17, 57, 57
+trumpet L2
+	bounds: 168, 35, 157, 173
+	rotate: 90
+trumpet L2top
+	bounds: 671, 347, 42, 42
+trumpet R1
+	bounds: 482, 134, 197, 222
+trumpet R1top
+	bounds: 671, 391, 57, 57
+trumpet R2
+	bounds: 2, 48, 157, 173
+	rotate: 90
+trumpet R2top
+	bounds: 284, 314, 42, 42

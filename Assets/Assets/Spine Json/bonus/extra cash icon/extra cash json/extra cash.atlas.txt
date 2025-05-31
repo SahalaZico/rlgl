@@ -1,0 +1,50 @@
+extra cash.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+EXTRA CASH
+	bounds: 355, 153, 318, 129
+	offsets: 1, 0, 320, 129
+FINISH BONUS
+	bounds: 355, 22, 334, 129
+	offsets: 1, 0, 336, 129
+base
+	bounds: 2, 2, 352, 352
+bright fx
+	bounds: 2, 356, 425, 293
+	offsets: 1, 17, 437, 310
+coin
+	bounds: 689, 36, 270, 211
+	rotate: 90
+coin small
+	bounds: 355, 293, 60, 61
+	offsets: 3, 4, 66, 69
+coin1
+	bounds: 2, 353, 1, 1
+coin2
+	bounds: 827, 16, 12, 18
+	offsets: 1, 1, 14, 20
+coin3
+	bounds: 809, 17, 16, 18
+	offsets: 1, 1, 18, 20
+coin4
+	bounds: 417, 337, 2, 17
+	offsets: 1, 1, 4, 19
+coin5
+	bounds: 368, 5, 10, 15
+	offsets: 1, 1, 12, 17
+coin6
+	bounds: 355, 6, 11, 14
+	offsets: 1, 1, 13, 16
+coin7
+	bounds: 417, 285, 10, 10
+	offsets: 1, 1, 12, 12
+frame stroke
+	bounds: 429, 297, 352, 352
+light
+	bounds: 691, 5, 116, 35
+	offsets: 0, 4, 149, 43
+light_yellow
+	bounds: 783, 308, 106, 111
+	offsets: 24, 21, 154, 154

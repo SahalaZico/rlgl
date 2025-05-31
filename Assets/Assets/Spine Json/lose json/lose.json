@@ -1,0 +1,476 @@
+{
+"skeleton": {
+	"hash": "So+p7+uh4bo",
+	"spine": "4.1.24",
+	"x": -470.5,
+	"y": -306.84,
+	"width": 945,
+	"height": 649.92,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/Doll Nightmare/21-10-2024/LOSE"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone", "parent": "root", "x": -10.43, "y": -30.44 },
+	{ "name": "bone2", "parent": "bone", "length": 113.17, "rotation": 90, "x": 2.9, "y": 499.09 },
+	{ "name": "bone3", "parent": "bone", "length": 245.84, "rotation": 101.58, "x": -284.37, "y": 313.38 },
+	{ "name": "bone4", "parent": "bone", "length": 247.07, "rotation": 77.11, "x": 281.47, "y": 316.29 },
+	{ "name": "bone5", "parent": "bone3", "x": 265.29, "y": 268.51 },
+	{ "name": "bone6", "parent": "bone4", "x": 263.97, "y": -281.9 },
+	{ "name": "bone7", "parent": "bone", "length": 278.39, "rotation": -114.23, "x": -214.13, "y": -298.78 },
+	{ "name": "bone8", "parent": "bone7", "length": 194.82, "rotation": -100.15, "x": 278.39 },
+	{ "name": "bone9", "parent": "bone", "length": 145.3, "rotation": -163.94, "x": -738.8, "y": -125.31 },
+	{ "name": "bone10", "parent": "bone", "length": 183.68, "rotation": -12.31, "x": 752.48, "y": -109.69 },
+	{ "name": "bone11", "parent": "bone", "x": 600.24, "y": -363.64 },
+	{ "name": "bone12", "parent": "bone8", "length": 231.35, "rotation": 51.91, "x": 198.43, "y": -52.6 },
+	{ "name": "target", "parent": "root", "x": -499.59, "y": -473.08, "color": "ff3f00ff" },
+	{ "name": "control speaker", "parent": "bone", "x": 1304.19, "y": -31.3, "color": "abe323ff" },
+	{ "name": "control speaker small", "parent": "bone", "x": 1294.69, "y": -173.77, "color": "abe323ff" },
+	{ "name": "bone13", "parent": "bone12", "x": 268.32, "y": -37.81 },
+	{ "name": "bone14", "parent": "bone12", "x": 76.89, "y": -27.78 },
+	{ "name": "bone15", "parent": "bone12", "x": -112.28, "y": -7.37 }
+],
+"slots": [
+	{ "name": "speaker R", "bone": "bone9", "attachment": "speaker R" },
+	{ "name": "speaker L", "bone": "bone10", "attachment": "speaker L" },
+	{ "name": "cable", "bone": "bone", "attachment": "cable" },
+	{ "name": "camera stand", "bone": "bone7", "attachment": "camera stand" },
+	{ "name": "pink border", "bone": "bone", "attachment": "pink border" },
+	{ "name": "screen black", "bone": "bone", "attachment": "screen black" },
+	{ "name": "small screen", "bone": "bone2", "attachment": "small screen" },
+	{ "name": "plate", "bone": "bone11", "attachment": "plate" },
+	{ "name": "red", "bone": "bone11", "attachment": "red" },
+	{ "name": "camera", "bone": "bone12", "attachment": "camera" },
+	{ "name": "arrow", "bone": "bone", "attachment": "arrow" },
+	{ "name": "LOSE", "bone": "bone2", "attachment": "LOSE" },
+	{ "name": "X", "bone": "bone", "attachment": "X" },
+	{ "name": "try again", "bone": "bone", "attachment": "try again" },
+	{ "name": "try again2", "bone": "bone", "attachment": "try again", "blend": "additive" },
+	{ "name": "BOARD RESULT", "bone": "bone", "attachment": "BOARD RESULT" },
+	{ "name": "ornamen L back", "bone": "bone3", "attachment": "ornamen L back" },
+	{ "name": "ornamen L front", "bone": "bone5", "attachment": "ornamen L front" },
+	{ "name": "ornamen R back", "bone": "bone4", "attachment": "ornamen R back" },
+	{ "name": "ornamen R front", "bone": "bone6", "attachment": "ornamen R front" },
+	{ "name": "1", "bone": "bone" }
+],
+"ik": [
+	{
+		"name": "target",
+		"bones": [ "bone7", "bone8" ],
+		"target": "target",
+		"bendPositive": false
+	}
+],
+"transform": [
+	{
+		"name": "control speaker bone3",
+		"order": 5,
+		"bones": [ "bone3" ],
+		"target": "control speaker",
+		"rotation": 101.58,
+		"x": -1588.56,
+		"y": 344.68,
+		"mixRotate": -0.3577,
+		"mixX": 0,
+		"mixScaleX": 0,
+		"mixShearY": 0
+	},
+	{
+		"name": "control speaker bone4",
+		"order": 6,
+		"bones": [ "bone4" ],
+		"target": "control speaker",
+		"rotation": 77.11,
+		"x": -1022.73,
+		"y": 347.58,
+		"mixRotate": 0.1889,
+		"mixX": 0,
+		"mixScaleX": 0,
+		"mixShearY": 0
+	},
+	{
+		"name": "control speaker L",
+		"order": 2,
+		"bones": [ "bone5" ],
+		"target": "control speaker",
+		"rotation": 101.58,
+		"x": -1904.84,
+		"y": 550.7,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.5938,
+		"mixScaleY": 0.6,
+		"mixShearY": 0
+	},
+	{
+		"name": "control speaker R",
+		"order": 1,
+		"bones": [ "bone6" ],
+		"target": "control speaker",
+		"rotation": 77.11,
+		"x": -689.03,
+		"y": 542,
+		"mixRotate": 0.0982,
+		"mixX": 0,
+		"mixScaleX": 0.55,
+		"mixScaleY": 0.5938,
+		"mixShearY": 0
+	},
+	{
+		"name": "control speaker small L",
+		"order": 4,
+		"bones": [ "bone9" ],
+		"target": "control speaker small",
+		"rotation": -163.94,
+		"x": -2033.49,
+		"y": 48.47,
+		"mixRotate": -0.3426,
+		"mixX": 0,
+		"mixScaleX": 0.4188,
+		"mixScaleY": 0.3563,
+		"mixShearY": 0
+	},
+	{
+		"name": "control speaker small R",
+		"order": 3,
+		"bones": [ "bone10" ],
+		"target": "control speaker small",
+		"rotation": -12.31,
+		"x": -542.21,
+		"y": 64.08,
+		"mixRotate": 0.3804,
+		"mixX": 0,
+		"mixScaleX": 0.3625,
+		"mixScaleY": 0.3938,
+		"mixShearY": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": -34.87, "y": -220.47, "scaleX": 1.3325, "scaleY": 1.3325, "width": 551, "height": 174 },
+				"2": { "x": -34.87, "y": -220.47, "scaleX": 1.3325, "scaleY": 1.3325, "width": 551, "height": 174 },
+				"3": { "x": -34.87, "y": -220.47, "scaleX": 1.3325, "scaleY": 1.3325, "width": 551, "height": 174 },
+				"4": { "x": -34.87, "y": -220.47, "scaleX": 1.3325, "scaleY": 1.3325, "width": 551, "height": 174 },
+				"5": { "x": -34.87, "y": -220.47, "scaleX": 1.3325, "scaleY": 1.3325, "width": 551, "height": 174 }
+			},
+			"arrow": {
+				"arrow": { "x": 12.43, "y": 143.11, "width": 76, "height": 67 }
+			},
+			"BOARD RESULT": {
+				"BOARD RESULT": { "x": -6.07, "y": 241.61, "width": 517, "height": 114 }
+			},
+			"cable": {
+				"cable": { "x": 97.43, "y": -325.4, "width": 986, "height": 200 }
+			},
+			"camera": {
+				"camera": {
+					"type": "mesh",
+					"uvs": [ 0.70634, 0.98198, 0.80817, 0.84434, 0.93106, 0.67824, 1, 0.58506, 1, 0.32448, 0.90792, 0, 0.76883, 0, 0.57329, 0, 0.4604, 0, 0.38984, 0, 0.29046, 0.05183, 0.20908, 0.09426, 0.13484, 0.13297, 0, 0.20329, 0.01489, 0.68808, 0.08945, 0.68371, 0.17012, 0.67899, 0.32937, 1, 0.41018, 0.99999, 0.48054, 1, 0.62369, 1, 0.66199, 1, 0.06932, 0.32448, 0.08746, 0.25782, 0.37372, 0.11542, 0.41202, 0.13057, 0.59143, 0.53658, 0.75619, 0.46001, 0.5064, 0.56604, 0.25973, 0.66107, 0.90792, 0.37599, 0.67775, 0.50352, 0.72851, 0.68808, 0.37342, 0.62075 ],
+					"triangles": [ 2, 30, 3, 30, 4, 3, 6, 5, 30, 30, 5, 4, 27, 30, 2, 27, 6, 30, 16, 29, 17, 18, 17, 33, 17, 29, 33, 19, 18, 33, 14, 22, 15, 14, 13, 22, 15, 22, 16, 16, 22, 29, 22, 23, 29, 29, 23, 11, 23, 12, 11, 29, 11, 33, 33, 11, 24, 33, 24, 25, 24, 11, 10, 22, 13, 23, 23, 13, 12, 28, 19, 33, 28, 20, 19, 0, 21, 32, 7, 25, 8, 0, 32, 1, 28, 32, 20, 32, 28, 26, 1, 32, 2, 32, 27, 2, 32, 31, 27, 33, 25, 28, 28, 25, 26, 25, 7, 26, 31, 7, 27, 27, 7, 6, 24, 9, 25, 24, 10, 9, 32, 26, 31, 26, 7, 31, 25, 9, 8, 32, 21, 20 ],
+					"vertices": [ 1, 17, 6.18, 190.45, 1, 1, 17, -55.29, 162.52, 1, 2, 17, -129.47, 128.81, 0.14857, 18, 59.7, 108.4, 0.85143, 1, 18, 18.08, 89.48, 1, 1, 18, -7.66, 7.98, 1, 1, 18, 3.58, -107.18, 1, 2, 17, -120.19, -107.41, 0.14857, 18, 68.97, -127.83, 0.85143, 1, 17, -28.26, -136.44, 1, 1, 17, 24.81, -153.2, 1, 2, 17, 57.98, -163.68, 0.59921, 16, -133.45, -153.64, 0.40079, 2, 17, 109.82, -162.22, 0.39175, 16, -81.61, -152.19, 0.60825, 1, 16, -39.16, -150.99, 1, 1, 16, -0.44, -149.91, 1, 1, 16, 69.9, -147.93, 1, 1, 16, 110.78, 5.91, 1, 1, 16, 75.3, 15.61, 1, 2, 17, 228.34, 16.07, 0.00612, 16, 36.91, 26.11, 0.99388, 1, 16, -6.25, 150.16, 1, 1, 16, -44.24, 162.15, 1, 1, 16, -77.32, 172.6, 1, 1, 17, 46.81, 183.81, 1, 1, 17, 28.81, 189.5, 1, 2, 17, 240.71, -109.77, 0.01432, 16, 49.28, -99.73, 0.98568, 1, 16, 34.17, -117.89, 1, 2, 17, 76.96, -129.97, 0.53756, 16, -114.47, -119.93, 0.46244, 2, 17, 60.45, -119.55, 0.61579, 16, -130.98, -109.51, 0.38421, 1, 17, 16.21, 34.08, 1, 1, 17, -68.81, 34.59, 1, 2, 17, 59.09, 30.67, 0.72727, 16, -132.34, 40.71, 0.27273, 2, 17, 184.44, 23.77, 0.06905, 16, -6.99, 33.81, 0.93095, 2, 17, -148.44, 30.84, 0.14857, 18, 40.72, 10.42, 0.85143, 1, 17, -27.64, 36.55, 1, 1, 17, -33.27, 101.81, 1, 2, 17, 127.01, 28.04, 0.32723, 16, -64.42, 38.08, 0.67277 ],
+					"hull": 22,
+					"edges": [ 6, 8, 8, 10, 26, 28, 32, 34, 0, 42, 28, 30, 30, 32, 24, 26, 18, 20, 34, 36, 40, 42, 0, 2, 2, 4, 4, 6, 10, 12, 12, 14, 14, 16, 16, 18, 36, 38, 38, 40, 20, 22, 22, 24 ],
+					"width": 493,
+					"height": 328
+				}
+			},
+			"camera stand": {
+				"camera stand": {
+					"type": "mesh",
+					"uvs": [ 0.12124, 0.42448, 0.27464, 0.369, 0.39782, 0.51902, 0.53739, 0.68899, 0.55559, 0.71115, 0.56697, 0.68376, 0.85117, 0, 1, 0, 1, 0.12249, 0.66779, 0.94672, 0.64631, 1, 0.58223, 1, 0.5145, 1, 0.45023, 1, 0.2218, 0.79185, 0, 0.58974, 0, 0.46833, 0.58193, 0.86935, 0.31561, 0.62653, 0.53755, 0.87912, 0.63122, 0.85919, 0.95401, 0.08021, 0.27096, 0.70702 ],
+					"triangles": [ 15, 16, 0, 18, 1, 2, 0, 1, 18, 18, 2, 3, 22, 0, 18, 15, 0, 22, 14, 15, 22, 19, 3, 4, 22, 3, 19, 3, 22, 18, 13, 22, 19, 14, 22, 13, 12, 13, 19, 19, 17, 11, 12, 19, 11, 21, 6, 7, 21, 7, 8, 5, 6, 21, 8, 20, 5, 8, 5, 21, 4, 5, 20, 17, 4, 20, 19, 4, 17, 9, 20, 8, 9, 11, 17, 9, 17, 20, 10, 11, 9 ],
+					"vertices": [ 1, 8, 203.94, -20.89, 1, 1, 8, 168.15, -64.2, 1, 2, 7, 206.06, -97.42, 0.00109, 8, 108.64, -54.02, 0.99891, 2, 7, 229.31, -33.09, 0.40497, 8, 41.22, -42.48, 0.59503, 2, 7, 232.33, -24.7, 0.67113, 8, 32.43, -40.98, 0.32887, 2, 7, 223.7, -24.19, 0.87313, 8, 33.46, -49.57, 0.12687, 1, 7, 8.05, -11.53, 1, 1, 7, -13.44, 36.24, 1, 1, 7, 17.83, 50.32, 1, 2, 7, 276.28, 38.38, 0.91173, 8, -37.41, -8.85, 0.08827, 2, 7, 292.98, 37.61, 0.77016, 8, -39.59, 7.74, 0.22984, 2, 7, 302.24, 17.04, 0.40195, 8, -20.98, 20.47, 0.59805, 2, 7, 312.02, -4.7, 0.02134, 8, -1.3, 33.94, 0.97866, 1, 8, 17.37, 46.71, 1, 1, 8, 116.64, 44.01, 1, 1, 8, 213.03, 41.4, 1, 1, 8, 232.23, 13.34, 1, 1, 7, 268.93, 1.93, 1, 1, 8, 115.53, -12.83, 1, 1, 8, 11.11, 1.42, 1, 1, 7, 259.21, 16.59, 1, 1, 7, 13.68, 30.7, 1, 1, 8, 115.77, 14.64, 1 ],
+					"hull": 17,
+					"edges": [ 12, 14, 14, 16, 30, 32, 26, 28, 28, 30, 2, 4, 2, 0, 0, 32, 8, 10, 10, 12, 16, 18, 18, 20, 4, 6, 6, 8, 24, 26, 20, 22, 22, 24 ],
+					"width": 352,
+					"height": 280
+				}
+			},
+			"LOSE": {
+				"LOSE": { "x": 4.51, "y": -13.03, "rotation": -90, "width": 375, "height": 106 }
+			},
+			"ornamen L back": {
+				"ornamen L back": {
+					"type": "mesh",
+					"uvs": [ 0.69991, 1, 0.60102, 0.54491, 0.54222, 0.75736, 0.15199, 0.87979, 0, 0.13802, 0.35512, 0, 0.55291, 0.16683, 1, 0.08401, 1, 0.4729, 0.94314, 1, 0.42194, 0.26045, 0.48876, 0.52331, 0.57162, 0.25325, 0.59567, 0.39728 ],
+					"triangles": [ 12, 6, 7, 10, 5, 6, 10, 6, 12, 13, 12, 7, 13, 7, 8, 13, 11, 10, 13, 10, 12, 1, 13, 8, 11, 13, 1, 2, 11, 1, 10, 3, 4, 10, 4, 5, 3, 10, 11, 3, 11, 2, 0, 1, 8, 9, 0, 8 ],
+					"vertices": [ 44.13, 54.9, 180.23, 66.19, 124.87, 100.82, 120.71, 256.22, 341.83, 271.13, 353.12, 128.17, 290.65, 62.63, 279.21, -112.1, 169.49, -89.63, 25.2, -37.55, 274.43, 117.82, 195.07, 107.61, 264.81, 60.51, 222.3, 59.69 ],
+					"hull": 10,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 0, 18 ],
+					"width": 388,
+					"height": 288
+				}
+			},
+			"ornamen L front": {
+				"ornamen L front": { "x": -12.06, "y": 67.2, "rotation": -101.58, "width": 525, "height": 445 }
+			},
+			"ornamen R back": {
+				"ornamen R back": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 111.49, -324.26, 24.91, 53.95, 298.82, 116.66, 385.4, -261.56 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 388,
+					"height": 281
+				}
+			},
+			"ornamen R front": {
+				"ornamen R front": { "x": -4.4, "y": -55.14, "rotation": -77.11, "width": 525, "height": 445 }
+			},
+			"pink border": {
+				"pink border": { "x": 13.93, "y": -17.9, "width": 1581, "height": 751 }
+			},
+			"plate": {
+				"plate": { "x": 15.19, "y": 1.25, "width": 202, "height": 184 }
+			},
+			"red": {
+				"red": { "x": 29.69, "y": 4.25, "width": 83, "height": 102 }
+			},
+			"screen black": {
+				"screen black": { "x": 11.93, "y": -21.9, "width": 1445, "height": 663 }
+			},
+			"small screen": {
+				"small screen": { "x": 2.51, "y": -1.03, "rotation": -90, "width": 559, "height": 300 }
+			},
+			"speaker L": {
+				"speaker L": { "x": 83.8, "y": -9.05, "rotation": 12.31, "width": 254, "height": 342 }
+			},
+			"speaker R": {
+				"speaker R": { "x": 65.31, "y": -7.26, "rotation": 163.94, "width": 254, "height": 342 }
+			},
+			"try again": {
+				"try again": { "x": 6.43, "y": -11.9, "width": 1570, "height": 437 }
+			},
+			"try again2": {
+				"try again": { "x": 6.43, "y": -11.9, "width": 1570, "height": 437 }
+			},
+			"X": {
+				"X": { "x": 339.93, "y": -213.9, "width": 325, "height": 335 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "5" }
+				]
+			},
+			"arrow": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1.0667, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" }
+				]
+			},
+			"LOSE": {
+				"rgba": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"try again2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 1.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"target": {
+				"translate": [
+					{ "time": 0.2 },
+					{ "time": 0.4667, "x": 15.83, "curve": "stepped" },
+					{ "time": 0.6, "x": 15.83 },
+					{ "time": 0.8, "x": -41.16, "y": 41.16, "curve": "stepped" },
+					{ "time": 1.3, "x": -41.16, "y": 41.16 },
+					{ "time": 1.5 }
+				]
+			},
+			"control speaker small": {
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 1.085, "y": 1.085 },
+					{ "time": 0.2667, "x": 0.943, "y": 0.943 },
+					{ "time": 0.4, "x": 1.085, "y": 1.085 },
+					{ "time": 0.4667, "x": 0.943, "y": 0.943 },
+					{ "time": 0.6, "x": 1.085, "y": 1.085 },
+					{ "time": 0.6667, "x": 0.943, "y": 0.943 },
+					{ "time": 0.8, "x": 1.085, "y": 1.085 },
+					{ "time": 0.8667, "x": 0.943, "y": 0.943 },
+					{ "time": 1, "x": 1.085, "y": 1.085 },
+					{ "time": 1.0667, "x": 0.943, "y": 0.943 },
+					{ "time": 1.1667, "x": 1.085, "y": 1.085 },
+					{ "time": 1.2333, "x": 0.943, "y": 0.943 },
+					{ "time": 1.4, "x": 1.085, "y": 1.085 },
+					{ "time": 1.4667, "x": 0.943, "y": 0.943 },
+					{ "time": 1.5 }
+				]
+			},
+			"control speaker": {
+				"rotate": [
+					{ "time": 0.2 },
+					{ "time": 0.2667, "value": -6.62 },
+					{ "time": 0.3, "value": 5.57 },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.9 },
+					{ "time": 0.9667, "value": -5.04 },
+					{ "time": 1.0333, "value": 6.2 },
+					{ "time": 1.1 }
+				],
+				"scale": [
+					{ "time": 0.2 },
+					{ "time": 0.2333, "x": 1.139, "y": 1.139 },
+					{ "time": 0.3, "x": 0.92, "y": 0.92 },
+					{ "time": 0.3667, "curve": "stepped" },
+					{ "time": 0.9 },
+					{ "time": 1, "x": 0.92, "y": 0.92 },
+					{ "time": 1.0667 }
+				]
+			},
+			"bone11": {
+				"rotate": [
+					{ "time": 0.4 },
+					{ "time": 0.4333, "value": -5.06 },
+					{ "time": 0.5, "value": 6.46 },
+					{ "time": 0.5667, "curve": "stepped" },
+					{ "time": 1.0333 },
+					{ "time": 1.0667, "value": -5.06 },
+					{ "time": 1.1333, "value": 6.46 },
+					{ "time": 1.2 }
+				]
+			},
+			"bone14": {
+				"translate": [
+					{ "time": 0.3667 },
+					{ "time": 0.6667, "x": -34.29, "y": 8.25 },
+					{ "time": 1.3 }
+				]
+			},
+			"bone15": {
+				"translate": [
+					{ "time": 0.3667 },
+					{ "time": 0.6667, "x": 13.65, "y": -0.93 },
+					{ "time": 1.3 }
+				]
+			}
+		}
+	},
+	"spawn": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0.3667, "name": "1" },
+					{ "time": 0.4333, "name": "2" },
+					{ "time": 0.5, "name": "3" },
+					{ "time": 0.5667, "name": "4" },
+					{ "time": 0.6333, "name": "5" }
+				]
+			},
+			"BOARD RESULT": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff" }
+				]
+			},
+			"LOSE": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"try again": {
+				"rgba": [
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.7, "name": "try again" }
+				]
+			},
+			"try again2": {
+				"rgba": [
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.7, "name": "try again" }
+				]
+			},
+			"X": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "y": 346.76 },
+					{ "time": 0.1667, "y": -20.23 },
+					{ "time": 0.2667, "y": 68.89 },
+					{ "time": 0.3667 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2, "y": 0.896 },
+					{ "time": 0.2667, "y": 1.068 },
+					{ "time": 0.3667 }
+				]
+			},
+			"target": {
+				"translate": [
+					{ "y": 346.76 },
+					{ "time": 0.1667, "y": -20.23 },
+					{ "time": 0.2667, "y": 68.89 },
+					{ "time": 0.3667 }
+				],
+				"scale": [
+					{ "time": 0.2, "y": 0.896 },
+					{ "time": 0.2667, "y": 1.02 }
+				]
+			},
+			"control speaker": {
+				"rotate": [
+					{ "time": 0.2667 },
+					{ "time": 0.3667, "value": -4.33 },
+					{ "time": 0.4667, "value": 4.39 },
+					{ "time": 0.5 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2667, "x": 1.063, "y": 1.063 },
+					{ "time": 0.4, "x": 0.939, "y": 0.939 },
+					{ "time": 0.5, "x": 1.045, "y": 1.045 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

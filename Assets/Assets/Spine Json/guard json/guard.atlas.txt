@@ -1,0 +1,48 @@
+guard.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+arm L idle
+	bounds: 646, 24, 38, 67
+	offsets: 1, 1, 39, 69
+arm L shoot
+	bounds: 686, 3, 49, 60
+	offsets: 8, 6, 62, 72
+arm R idle
+	bounds: 340, 31, 33, 41
+	offsets: 0, 0, 33, 42
+arm R shoot
+	bounds: 563, 4, 82, 56
+	offsets: 5, 1, 91, 57
+body idle top
+	bounds: 432, 45, 82, 72
+	offsets: 11, 11, 104, 89
+body low
+	bounds: 256, 34, 86, 85
+body top shoot
+	bounds: 516, 119, 75, 68
+grass green 2
+	bounds: 256, 196, 634, 168
+gun R idle
+	bounds: 376, 24, 54, 130
+	offsets: 1, 5, 57, 136
+gun shoot
+	bounds: 516, 11, 45, 106
+	offsets: 0, 0, 45, 107
+hand L idle
+	bounds: 256, 238, 34, 35
+	offsets: 6, 6, 46, 47
+helmet
+	bounds: 256, 121, 130, 117
+lamp
+	bounds: 737, 41, 41, 43
+shoot fx
+	bounds: 432, 119, 79, 75
+	offsets: 0, 2, 80, 79
+tower
+	bounds: 2, 2, 252, 362
+	offsets: 1, 1, 253, 363
+tower top
+	bounds: 563, 93, 196, 24
+	offsets: 1, 0, 198, 25

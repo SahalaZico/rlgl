@@ -1,0 +1,71 @@
+{
+"skeleton": {
+	"hash": "Nodew7s2y7M",
+	"spine": "4.1.24",
+	"x": -34.48,
+	"y": -41.54,
+	"width": 73.25,
+	"height": 84.11,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/Doll Nightmare/09-12-2024/Arrow player/Arrow Animate"
+},
+"bones": [
+	{ "name": "root", "x": -58.22, "y": 53.68, "scaleX": 0.2526, "scaleY": 0.2526 },
+	{ "name": "bone", "parent": "root", "x": 233.74, "y": -91.15 }
+],
+"slots": [
+	{ "name": "1", "bone": "bone", "attachment": "1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": 5.26, "y": -119.35, "width": 290, "height": 333 },
+				"2": { "x": 16.26, "y": -115.85, "width": 320, "height": 340 },
+				"3": { "x": 11.76, "y": -113.85, "width": 357, "height": 346 },
+				"4": { "x": 4.76, "y": -113.85, "width": 369, "height": 348 },
+				"5": { "x": -1.24, "y": -114.35, "width": 357, "height": 347 },
+				"6": { "x": -6.24, "y": -116.35, "width": 321, "height": 343 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0.0667, "name": "2" },
+					{ "time": 0.1333, "name": "3" },
+					{ "time": 0.2, "name": "4" },
+					{ "time": 0.2667, "name": "5" },
+					{ "time": 0.3333, "name": "6" },
+					{ "time": 0.4, "name": "1" },
+					{ "time": 0.4667, "name": "2" },
+					{ "time": 0.5333, "name": "3" },
+					{ "time": 0.6, "name": "4" },
+					{ "time": 0.6667, "name": "5" },
+					{ "time": 0.7333, "name": "6" },
+					{ "time": 0.8, "name": "1" },
+					{ "time": 0.8667, "name": "2" },
+					{ "time": 0.9333, "name": "3" },
+					{ "time": 1, "name": "4" },
+					{ "time": 1.0667, "name": "5" },
+					{ "time": 1.1333, "name": "6" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 0.4, "y": -106.38 },
+					{ "time": 0.5333, "y": -127.06 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

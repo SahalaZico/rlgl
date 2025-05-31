@@ -1,0 +1,21 @@
+character pointer.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 871, 8, 145, 167
+2
+	bounds: 709, 5, 160, 170
+3
+	bounds: 368, 2, 177, 173
+	offsets: 1, 0, 179, 173
+4
+	bounds: 2, 2, 184, 173
+	offsets: 1, 1, 185, 174
+5
+	bounds: 188, 2, 178, 173
+	offsets: 0, 1, 179, 174
+6
+	bounds: 547, 5, 160, 170
+	offsets: 0, 1, 161, 172

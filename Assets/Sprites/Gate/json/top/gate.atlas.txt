@@ -1,0 +1,27 @@
+gate.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+Gate Top
+	bounds: 462, 269, 560, 184
+hit fx
+	bounds: 2, 2, 458, 451
+	offsets: 1, 1, 460, 453
+shine top gate 1
+	bounds: 798, 27, 86, 95
+	offsets: 2, 0, 88, 95
+shine top gate 2
+	bounds: 654, 13, 142, 109
+	offsets: 1, 0, 143, 110
+shine top gate 3
+	bounds: 462, 18, 190, 104
+	offsets: 1, 0, 192, 105
+shine top gate 4
+	bounds: 462, 124, 507, 143
+	offsets: 1, 0, 508, 144
+spark 1
+	bounds: 886, 67, 50, 55
+spark 2
+	bounds: 886, 24, 37, 41
+spark 3
+	bounds: 925, 35, 28, 30

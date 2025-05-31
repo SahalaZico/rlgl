@@ -1,0 +1,278 @@
+{
+"skeleton": {
+	"hash": "8J20tQzHdJ8",
+	"spine": "4.1.24",
+	"x": -244.5,
+	"y": -250,
+	"width": 489,
+	"height": 453,
+	"images": "./images/",
+	"audio": "D:/data asus/Documents/ramdan/kantor/shogun fortess/animation/obstacle/gate"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "hit fx", "parent": "all", "x": 5.5, "y": -23.5 },
+	{ "name": "gate broke 9", "parent": "all", "x": -200, "y": 24.5 },
+	{ "name": "gate broke 8", "parent": "all", "x": -111, "y": 52.5 },
+	{ "name": "gate broke 7", "parent": "all", "x": -187, "y": -54.5 },
+	{ "name": "gate broke 6", "parent": "all", "x": -44, "y": 27 },
+	{ "name": "gate broke 5", "parent": "all", "x": -79, "y": -53.5 },
+	{ "name": "gate broke 4", "parent": "all", "x": 73.5, "y": 62.5 },
+	{ "name": "gate broke 3", "parent": "all", "x": 141.5, "y": 23 },
+	{ "name": "gate broke 2", "parent": "all", "x": 171, "y": -28.5 },
+	{ "name": "gate broke 1", "parent": "all", "x": 43, "y": -32.5 }
+],
+"slots": [
+	{ "name": "gate", "bone": "all", "attachment": "gate" },
+	{ "name": "gate broke 1", "bone": "gate broke 1", "attachment": "gate broke 1" },
+	{ "name": "gate broke 2", "bone": "gate broke 2", "attachment": "gate broke 2" },
+	{ "name": "gate broke 3", "bone": "gate broke 3", "attachment": "gate broke 3" },
+	{ "name": "gate broke 4", "bone": "gate broke 4", "attachment": "gate broke 4" },
+	{ "name": "gate broke 5", "bone": "gate broke 5", "attachment": "gate broke 5" },
+	{ "name": "gate broke 6", "bone": "gate broke 6", "attachment": "gate broke 6" },
+	{ "name": "gate broke 7", "bone": "gate broke 7", "attachment": "gate broke 7" },
+	{ "name": "gate broke 8", "bone": "gate broke 8", "attachment": "gate broke 8" },
+	{ "name": "gate broke 9", "bone": "gate broke 9", "attachment": "gate broke 9" },
+	{ "name": "hit fx", "bone": "hit fx", "attachment": "hit fx" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"gate": {
+				"gate": { "width": 489, "height": 254 }
+			},
+			"gate broke 1": {
+				"gate broke 1": { "width": 157, "height": 187 }
+			},
+			"gate broke 2": {
+				"gate broke 2": { "width": 147, "height": 195 }
+			},
+			"gate broke 3": {
+				"gate broke 3": { "width": 116, "height": 162 }
+			},
+			"gate broke 4": {
+				"gate broke 4": { "width": 134, "height": 129 }
+			},
+			"gate broke 5": {
+				"gate broke 5": { "width": 149, "height": 145 }
+			},
+			"gate broke 6": {
+				"gate broke 6": { "width": 153, "height": 202 }
+			},
+			"gate broke 7": {
+				"gate broke 7": { "width": 115, "height": 145 }
+			},
+			"gate broke 8": {
+				"gate broke 8": { "width": 121, "height": 133 }
+			},
+			"gate broke 9": {
+				"gate broke 9": { "width": 87, "height": 117 }
+			},
+			"hit fx": {
+				"hit fx": { "width": 460, "height": 453 }
+			}
+		}
+	}
+],
+"animations": {
+	"break": {
+		"slots": {
+			"gate": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"gate broke 1": {
+				"rotate": [
+					{ "value": -19.96 }
+				],
+				"translate": [
+					{ "x": 154.45, "y": 223.05 }
+				]
+			},
+			"gate broke 2": {
+				"rotate": [
+					{ "value": -19.96 }
+				],
+				"translate": [
+					{ "x": -73.09, "y": 345.23 }
+				]
+			},
+			"gate broke 3": {
+				"rotate": [
+					{ "value": -19.96 }
+				],
+				"translate": [
+					{ "x": 226.92, "y": 308.72 }
+				]
+			},
+			"gate broke 4": {
+				"rotate": [
+					{ "value": -19.96 }
+				],
+				"translate": [
+					{ "x": -117.91, "y": 288.86 }
+				]
+			},
+			"gate broke 5": {
+				"rotate": [
+					{ "value": 26.86 }
+				],
+				"translate": [
+					{ "x": -131.79, "y": 305.11 }
+				],
+				"scale": [
+					{ "x": 0.942, "y": 1.147 }
+				]
+			},
+			"gate broke 6": {
+				"rotate": [
+					{ "value": 26.86 }
+				],
+				"translate": [
+					{ "x": -324.97, "y": 204.01 }
+				],
+				"scale": [
+					{ "x": 1.101 }
+				]
+			},
+			"gate broke 7": {
+				"rotate": [
+					{ "value": 26.86 }
+				],
+				"translate": [
+					{ "x": 10.83, "y": 500.09 }
+				]
+			},
+			"gate broke 8": {
+				"rotate": [
+					{ "value": 26.86 }
+				],
+				"translate": [
+					{ "x": -309.12, "y": 447.34 }
+				]
+			},
+			"gate broke 9": {
+				"rotate": [
+					{ "value": -19.96 }
+				],
+				"translate": [
+					{ "x": 316.52, "y": 505.14 }
+				]
+			}
+		}
+	},
+	"bump": {
+		"slots": {
+			"gate broke 1": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 2": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 3": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 4": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 5": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 6": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 7": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 8": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 9": {
+				"attachment": [
+					{}
+				]
+			},
+			"hit fx": {
+				"attachment": [
+					{}
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"gate broke 1": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 2": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 3": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 4": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 5": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 6": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 7": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 8": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 9": {
+				"attachment": [
+					{}
+				]
+			},
+			"hit fx": {
+				"attachment": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

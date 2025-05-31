@@ -1,0 +1,1122 @@
+{
+"skeleton": {
+	"hash": "ENdzSsnxDLA",
+	"spine": "4.1.24",
+	"x": -284.82,
+	"y": -177.25,
+	"width": 578,
+	"height": 304.25,
+	"images": "./images/",
+	"audio": "D:/data asus/Documents/ramdan/kantor/shogun fortess/animation/obstacle/gate"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "hit fx", "parent": "all", "x": 5.5, "y": -23.5 },
+	{ "name": "gate broke 9", "parent": "all", "x": -200, "y": 24.5 },
+	{ "name": "gate broke 8", "parent": "all", "x": -111, "y": 52.5 },
+	{ "name": "gate broke 7", "parent": "all", "x": -187, "y": -54.5 },
+	{ "name": "gate broke 6", "parent": "all", "x": -44, "y": 27 },
+	{ "name": "gate broke 5", "parent": "all", "x": -79, "y": -53.5 },
+	{ "name": "gate broke 4", "parent": "all", "x": 73.5, "y": 62.5 },
+	{ "name": "gate broke 3", "parent": "all", "x": 141.5, "y": 23 },
+	{ "name": "gate broke 2", "parent": "all", "x": 171, "y": -28.5 },
+	{ "name": "gate broke 1", "parent": "all", "x": 43, "y": -32.5 },
+	{ "name": "gate", "parent": "all" },
+	{ "name": "pilars", "parent": "all", "x": 2.75, "y": -15.52 },
+	{ "name": "gate clipping", "parent": "gate", "x": -4.34, "y": 219.09 },
+	{ "name": "gate2", "parent": "gate" },
+	{ "name": "Gate L", "parent": "gate", "x": 197.19, "y": -125.03, "color": "0007ffff" },
+	{ "name": "Gate R", "parent": "gate", "x": -241.39, "y": -124.18, "color": "0007ffff" },
+	{ "name": "Pillars", "parent": "pilars", "x": 1.44, "y": -49.23 },
+	{ "name": "Pillars clipping", "parent": "Pillars", "x": 15.03, "y": 286.21 },
+	{ "name": "Pillars2", "parent": "Pillars" },
+	{ "name": "Pillars shade", "parent": "Pillars" },
+	{ "name": "Pillars shade2", "parent": "Pillars" },
+	{ "name": "Pillars shade3", "parent": "Pillars" },
+	{ "name": "Gem L", "parent": "Gate L", "x": -101.26, "y": 91.79 },
+	{ "name": "Gem R", "parent": "Gate R", "x": 116.06, "y": 93.14 }
+],
+"slots": [
+	{ "name": "gate", "bone": "gate2", "attachment": "gate" },
+	{ "name": "gate clipping", "bone": "gate clipping", "attachment": "gate clipping" },
+	{ "name": "gate2", "bone": "gate", "attachment": "gate", "blend": "additive" },
+	{ "name": "Gate L", "bone": "Gate L", "attachment": "Gate L" },
+	{ "name": "Gate R", "bone": "Gate R", "attachment": "Gate R" },
+	{ "name": "gate broke 1", "bone": "gate broke 1", "attachment": "gate broke 1" },
+	{ "name": "gate broke 2", "bone": "gate broke 2", "attachment": "gate broke 2" },
+	{ "name": "gate broke 3", "bone": "gate broke 3", "attachment": "gate broke 3" },
+	{ "name": "gate broke 4", "bone": "gate broke 4", "attachment": "gate broke 4" },
+	{ "name": "gate broke 5", "bone": "gate broke 5", "attachment": "gate broke 5" },
+	{ "name": "gate broke 6", "bone": "gate broke 6", "attachment": "gate broke 6" },
+	{ "name": "gate broke 7", "bone": "gate broke 7", "attachment": "gate broke 7" },
+	{ "name": "gate broke 8", "bone": "gate broke 8", "attachment": "gate broke 8" },
+	{ "name": "gate broke 9", "bone": "gate broke 9", "attachment": "gate broke 9" },
+	{ "name": "Pillars", "bone": "Pillars2", "attachment": "Pillars" },
+	{ "name": "Pillars2", "bone": "Pillars shade", "attachment": "Pillars" },
+	{ "name": "Pillars3", "bone": "Pillars shade2", "attachment": "Pillars" },
+	{ "name": "Pillars4", "bone": "Pillars shade3", "attachment": "Pillars" },
+	{ "name": "Pillars clipping", "bone": "Pillars clipping", "attachment": "Pillars clipping" },
+	{ "name": "Pillars shine", "bone": "Pillars", "attachment": "Pillars", "blend": "additive" },
+	{ "name": "hit fx", "bone": "hit fx" },
+	{ "name": "Gem L", "bone": "Gem L", "attachment": "Gem L", "blend": "multiply" },
+	{ "name": "Gem R", "bone": "Gem R", "attachment": "Gem R", "blend": "multiply" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"gate": {
+				"gate": { "width": 489, "height": 254 }
+			},
+			"gate2": {
+				"gate": { "width": 489, "height": 254 }
+			},
+			"gate broke 1": {
+				"gate broke 1": { "width": 155, "height": 185 }
+			},
+			"gate broke 2": {
+				"gate broke 2": { "width": 145, "height": 193 }
+			},
+			"gate broke 3": {
+				"gate broke 3": { "width": 114, "height": 160 }
+			},
+			"gate broke 4": {
+				"gate broke 4": { "width": 132, "height": 127 }
+			},
+			"gate broke 5": {
+				"gate broke 5": { "width": 147, "height": 143 }
+			},
+			"gate broke 6": {
+				"gate broke 6": { "width": 151, "height": 200 }
+			},
+			"gate broke 7": {
+				"gate broke 7": { "width": 113, "height": 143 }
+			},
+			"gate broke 8": {
+				"gate broke 8": { "width": 119, "height": 131 }
+			},
+			"gate broke 9": {
+				"gate broke 9": { "width": 85, "height": 115 }
+			},
+			"gate clipping": {
+				"gate clipping": {
+					"type": "clipping",
+					"end": "gate2",
+					"vertexCount": 4,
+					"vertices": [ -324.12, -9.23, 311.54, 82.65, 297.88, -4.26, -343.99, -76.27 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"Gate L": {
+				"Gate L": { "x": -92.98, "y": 124.97, "width": 279, "height": 251 }
+			},
+			"Gate R": {
+				"Gate R": { "x": 135.24, "y": 123.77, "width": 275, "height": 252 }
+			},
+			"Gem L": {
+				"Gem L": { "width": 41, "height": 38 }
+			},
+			"Gem R": {
+				"Gem R": { "width": 39, "height": 38 }
+			},
+			"hit fx": {
+				"hit fx": { "width": 460, "height": 453 }
+			},
+			"Pillars": {
+				"Pillars": { "width": 578, "height": 225 }
+			},
+			"Pillars2": {
+				"Pillars": { "width": 578, "height": 225 }
+			},
+			"Pillars3": {
+				"Pillars": { "width": 578, "height": 225 }
+			},
+			"Pillars4": {
+				"Pillars": { "width": 578, "height": 225 }
+			},
+			"Pillars clipping": {
+				"Pillars clipping": {
+					"type": "clipping",
+					"end": "Pillars shine",
+					"vertexCount": 4,
+					"vertices": [ -333.38, 5.45, 324.55, 63.93, 319.98, -10.09, -332.47, -61.26 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"Pillars shine": {
+				"Pillars": { "width": 578, "height": 225 }
+			}
+		}
+	}
+],
+"animations": {
+	"break": {
+		"slots": {
+			"gate": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate2": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 1": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 1" }
+				]
+			},
+			"gate broke 2": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 2" }
+				]
+			},
+			"gate broke 3": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 3" }
+				]
+			},
+			"gate broke 4": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 4" }
+				]
+			},
+			"gate broke 5": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 5" }
+				]
+			},
+			"gate broke 6": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 6" }
+				]
+			},
+			"gate broke 7": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 7" }
+				]
+			},
+			"gate broke 8": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 8" }
+				]
+			},
+			"gate broke 9": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "gate broke 9" }
+				]
+			},
+			"Gate L": {
+				"attachment": [
+					{ "time": 0.1667 }
+				]
+			},
+			"Gate R": {
+				"attachment": [
+					{ "time": 0.1667 }
+				]
+			},
+			"Gem L": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Gem R": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Pillars2": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 0 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"Pillars3": {
+				"rgba": [
+					{
+						"time": 0.1667,
+						"color": "ffffffff",
+						"curve": [ 0.272, 1, 0.394, 1, 0.272, 1, 0.394, 1, 0.272, 1, 0.394, 1, 0.272, 1, 0.394, 0 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"Pillars4": {
+				"rgba": [
+					{
+						"time": 0.2667,
+						"color": "ffffffff",
+						"curve": [ 0.394, 1, 0.54, 1, 0.394, 1, 0.54, 1, 0.394, 1, 0.54, 1, 0.394, 1, 0.54, 0 ]
+					},
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gate broke 1": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, -11.78 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -14.74,
+						"curve": [ 0.444, -20.65, 0.556, -52.49 ]
+					},
+					{ "time": 0.6667, "value": -52.49 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"x": 6.91,
+						"y": 123.64,
+						"curve": [ 0.222, 6.91, 0.278, 94.03, 0.222, 123.64, 0.278, 182.34 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 115.89,
+						"y": 197.07,
+						"curve": [ 0.444, 159.61, 0.556, 154.45, 0.444, 226.53, 0.556, 223.05 ]
+					},
+					{ "time": 0.6667, "x": 154.45, "y": 223.05 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": -22.71, "curve": "stepped" },
+					{ "time": 0.5, "x": -22.71 },
+					{ "time": 0.6667, "x": -22.71, "y": 29.94 }
+				]
+			},
+			"gate broke 2": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, -11.78 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -14.74,
+						"curve": [ 0.444, -20.65, 0.556, 10.37 ]
+					},
+					{ "time": 0.6667, "value": 10.37 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"x": 6.91,
+						"y": 123.64,
+						"curve": [ 0.222, 6.91, 0.278, -40.33, 0.222, 123.64, 0.278, 254.49 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -52.18,
+						"y": 287.32,
+						"curve": [ 0.444, -75.89, 0.556, -73.09, 0.444, 352.97, 0.556, 345.23 ]
+					},
+					{ "time": 0.6667, "x": -73.09, "y": 345.23 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": -22.71, "curve": "stepped" },
+					{ "time": 0.5, "x": -22.71 },
+					{ "time": 0.6667, "x": -22.71, "y": 29.94 }
+				]
+			},
+			"gate broke 3": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, -11.78 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -14.74,
+						"curve": [ 0.444, -20.65, 0.556, -52.49 ]
+					},
+					{ "time": 0.6667, "value": -52.49 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"x": 6.91,
+						"y": 123.64,
+						"curve": [ 0.222, 6.91, 0.278, 136.83, 0.222, 123.64, 0.278, 232.93 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 169.42,
+						"y": 260.35,
+						"curve": [ 0.444, 234.61, 0.556, 226.92, 0.444, 315.19, 0.556, 308.72 ]
+					},
+					{ "time": 0.6667, "x": 226.92, "y": 308.72 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": -22.71, "curve": "stepped" },
+					{ "time": 0.5, "x": -22.71 },
+					{ "time": 0.6667, "x": -22.71, "y": 29.94 }
+				]
+			},
+			"gate broke 4": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, -11.78 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -14.74,
+						"curve": [ 0.444, -20.65, 0.556, 10.37 ]
+					},
+					{ "time": 0.6667, "value": 10.37 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"x": 6.91,
+						"y": 123.64,
+						"curve": [ 0.222, 6.91, 0.278, -66.8, 0.222, 123.64, 0.278, 221.2 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -85.29,
+						"y": 245.68,
+						"curve": [ 0.444, -122.27, 0.556, -117.91, 0.444, 294.63, 0.556, 288.86 ]
+					},
+					{ "time": 0.6667, "x": -117.91, "y": 288.86 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": -22.71, "curve": "stepped" },
+					{ "time": 0.5, "x": -22.71 },
+					{ "time": 0.6667, "x": -22.71, "y": 29.94 }
+				]
+			},
+			"gate broke 5": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, 15.86 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 19.84,
+						"curve": [ 0.444, 27.8, 0.556, -5.67 ]
+					},
+					{ "time": 0.6667, "value": -5.67 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"y": 104.44,
+						"curve": [ 0.222, 0, 0.278, -77.83, 0.222, 104.44, 0.278, 222.94 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -97.35,
+						"y": 252.66,
+						"curve": [ 0.444, -136.4, 0.556, -131.79, 0.444, 312.12, 0.556, 305.11 ]
+					},
+					{ "time": 0.6667, "x": -131.79, "y": 305.11 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 0.942, 0.444, 1, 0.556, 0.472 ]
+					},
+					{ "time": 0.6667, "x": 0.942, "y": 0.472 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": 14.76, "curve": "stepped" },
+					{ "time": 0.5, "x": 14.76 },
+					{ "time": 0.6667, "x": 14.76, "y": 29.94 }
+				]
+			},
+			"gate broke 6": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, 15.86 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 19.84,
+						"curve": [ 0.444, 27.8, 0.556, 57.18 ]
+					},
+					{ "time": 0.6667, "value": 57.18 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"y": 104.44,
+						"curve": [ 0.222, 0, 0.278, -191.9, 0.222, 104.44, 0.278, 163.23 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -240.04,
+						"y": 177.99,
+						"curve": [ 0.444, -336.33, 0.556, -324.97, 0.444, 207.49, 0.556, 204.01 ]
+					},
+					{ "time": 0.6667, "x": -324.97, "y": 204.01 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1.101, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "x": 1.101, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": 14.76, "curve": "stepped" },
+					{ "time": 0.5, "x": 14.76 },
+					{ "time": 0.6667, "x": 14.76, "y": 29.94 }
+				]
+			},
+			"gate broke 7": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, 15.86 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 19.84,
+						"curve": [ 0.444, 27.8, 0.556, -5.67 ]
+					},
+					{ "time": 0.6667, "value": -5.67 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"y": 104.44,
+						"curve": [ 0.222, 0, 0.278, 6.4, 0.222, 104.44, 0.278, 338.07 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 8,
+						"y": 396.69,
+						"curve": [ 0.444, 11.21, 0.556, 10.83, 0.444, 513.92, 0.556, 500.09 ]
+					},
+					{ "time": 0.6667, "x": 10.83, "y": 500.09 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": 14.76, "curve": "stepped" },
+					{ "time": 0.5, "x": 14.76 },
+					{ "time": 0.6667, "x": 14.76, "y": 29.94 }
+				]
+			},
+			"gate broke 8": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, 15.86 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 19.84,
+						"curve": [ 0.444, 27.8, 0.556, 57.18 ]
+					},
+					{ "time": 0.6667, "value": 57.18 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"y": 104.44,
+						"curve": [ 0.222, 0, 0.278, -182.54, 0.222, 104.44, 0.278, 306.93 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -228.33,
+						"y": 357.73,
+						"curve": [ 0.444, -319.92, 0.556, -309.12, 0.444, 459.33, 0.556, 447.34 ]
+					},
+					{ "time": 0.6667, "x": -309.12, "y": 447.34 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": 14.76, "curve": "stepped" },
+					{ "time": 0.5, "x": 14.76 },
+					{ "time": 0.6667, "x": 14.76, "y": 29.94 }
+				]
+			},
+			"gate broke 9": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, -11.78 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -14.74,
+						"curve": [ 0.444, -20.65, 0.556, -52.49 ]
+					},
+					{ "time": 0.6667, "value": -52.49 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"y": 104.44,
+						"curve": [ 0.222, 0, 0.278, 186.91, 0.222, 104.44, 0.278, 341.06 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 233.8,
+						"y": 400.43,
+						"curve": [ 0.444, 327.59, 0.556, 316.52, 0.444, 519.15, 0.556, 505.14 ]
+					},
+					{ "time": 0.6667, "x": 316.52, "y": 505.14 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 0.411 ]
+					},
+					{ "time": 0.6667, "y": 0.411 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": 14.76, "curve": "stepped" },
+					{ "time": 0.5, "x": 14.76 },
+					{ "time": 0.6667, "x": 14.76, "y": 29.94 }
+				]
+			},
+			"Gate L": {
+				"translate": [
+					{
+						"time": 0.1,
+						"curve": [ 0.122, 0, 0.144, 2, 0.122, 0, 0.144, 46.04 ]
+					},
+					{ "time": 0.1667, "x": 3, "y": 69.07 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.033, 0, 0.067, -14.35, 0.033, 0, 0.067, 0 ]
+					},
+					{ "time": 0.1, "x": -14.35 }
+				]
+			},
+			"Gate R": {
+				"translate": [
+					{
+						"time": 0.1,
+						"curve": [ 0.122, 0, 0.144, 1, 0.122, 0, 0.144, 44.04 ]
+					},
+					{ "time": 0.1667, "x": 1.5, "y": 66.06 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.033, 0, 0.067, 19.89, 0.033, 0, 0.067, 0 ]
+					},
+					{ "time": 0.1, "x": 19.89 }
+				]
+			},
+			"gate clipping": {
+				"shear": [
+					{ "time": 0.1667, "x": 14.76 }
+				]
+			},
+			"pilars": {
+				"rotate": [
+					{
+						"curve": [ 0.056, 0, 0.111, 1.54 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 1.54,
+						"curve": [ 0.222, 1.54, 0.278, 0.51 ]
+					},
+					{ "time": 0.3333 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.056, 0, 0.111, 0, 0.056, 0, 0.111, 9.67 ]
+					},
+					{
+						"time": 0.1667,
+						"y": 9.67,
+						"curve": [ 0.222, 0, 0.278, 0, 0.222, 9.67, 0.278, 3.22 ]
+					},
+					{ "time": 0.3333 }
+				]
+			},
+			"Pillars shade": {
+				"translate": [
+					{
+						"curve": [ 0.167, 0, 0.333, 0, 0.167, 0, 0.333, 71.39 ]
+					},
+					{ "time": 0.5, "y": 71.39 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.226, 0.167, 1, 0.333, 1.226 ]
+					},
+					{ "time": 0.5, "x": 1.226, "y": 1.226 }
+				]
+			},
+			"Pillars shade2": {
+				"translate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.272, 0, 0.394, 0, 0.272, 0, 0.394, 71.39 ]
+					},
+					{ "time": 0.5, "y": 71.39 }
+				],
+				"scale": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.272, 1, 0.394, 1.226, 0.272, 1, 0.394, 1.226 ]
+					},
+					{ "time": 0.5, "x": 1.226, "y": 1.226 }
+				]
+			},
+			"Pillars shade3": {
+				"translate": [
+					{
+						"time": 0.2667,
+						"curve": [ 0.394, 0, 0.54, 0, 0.394, 0, 0.54, 71.39 ]
+					},
+					{ "time": 0.6667, "y": 71.39 }
+				],
+				"scale": [
+					{
+						"time": 0.2667,
+						"curve": [ 0.394, 1, 0.54, 1.226, 0.394, 1, 0.54, 1.226 ]
+					},
+					{ "time": 0.6667, "x": 1.226, "y": 1.226 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "Pillars", "offset": 3 }
+				]
+			}
+		]
+	},
+	"bump": {
+		"slots": {
+			"gate": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate2": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 1": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 2": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 3": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 4": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 5": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 6": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 7": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 8": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 9": {
+				"attachment": [
+					{}
+				]
+			},
+			"Gem L": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"color": "ffffff00",
+						"curve": [ 0.189, 1, 0.211, 1, 0.189, 1, 0.211, 1, 0.189, 1, 0.211, 1, 0.189, 0.33, 0.211, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"color": "ffffffff",
+						"curve": [ 0.267, 1, 0.467, 1, 0.267, 1, 0.467, 1, 0.267, 1, 0.467, 1, 0.267, 1, 0.467, 0 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffff00",
+						"curve": [ 0.556, 1, 0.544, 1, 0.556, 1, 0.544, 1, 0.556, 1, 0.544, 1, 0.556, 0, 0.544, 1 ]
+					},
+					{
+						"time": 0.5667,
+						"color": "ffffffff",
+						"curve": [ 0.656, 1, 0.744, 1, 0.656, 1, 0.744, 1, 0.656, 1, 0.744, 1, 0.656, 1, 0.744, 0.89 ]
+					},
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"Gem R": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"color": "ffffff00",
+						"curve": [ 0.189, 1, 0.211, 1, 0.189, 1, 0.211, 1, 0.189, 1, 0.211, 1, 0.189, 0.33, 0.211, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"color": "ffffffff",
+						"curve": [ 0.267, 1, 0.467, 1, 0.267, 1, 0.467, 1, 0.267, 1, 0.467, 1, 0.267, 1, 0.467, 0 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffff00",
+						"curve": [ 0.556, 1, 0.544, 1, 0.556, 1, 0.544, 1, 0.556, 1, 0.544, 1, 0.556, 0, 0.544, 1 ]
+					},
+					{
+						"time": 0.5667,
+						"color": "ffffffff",
+						"curve": [ 0.656, 1, 0.744, 1, 0.656, 1, 0.744, 1, 0.656, 1, 0.744, 1, 0.656, 1, 0.744, 0.89 ]
+					},
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"Pillars2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.056, 1, 0.111, 1, 0.056, 1, 0.111, 1, 0.056, 1, 0.111, 1, 0.056, 0, 0.111, 1 ]
+					},
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"Pillars3": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"color": "ffffff00",
+						"curve": [ 0.278, 1, 0.389, 1, 0.278, 1, 0.389, 1, 0.278, 1, 0.389, 1, 0.278, 0, 0.389, 1 ]
+					},
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"Pillars4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gate": {
+				"translate": [
+					{
+						"curve": [ 0.023, 0, 0.045, -1.13, 0.023, 0, 0.045, 6.78 ]
+					},
+					{
+						"time": 0.0667,
+						"x": -1.13,
+						"y": 6.78,
+						"curve": [ 0.097, -1.13, 0.137, -1, 0.097, 6.78, 0.137, -8.66 ]
+					},
+					{
+						"time": 0.1667,
+						"x": -0.84,
+						"y": -9.66,
+						"curve": [ 0.289, -0.17, 0.38, 0, 0.289, -13.68, 0.38, 0 ]
+					},
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"gate2": {
+				"translate": [
+					{
+						"curve": [ 0.008, -1.03, 0.081, 2.28, 0.008, 3.52, 0.081, 3.52 ]
+					},
+					{
+						"time": 0.1,
+						"curve": [ 0.23, -15.61, 0.37, 0, 0.23, -24.12, 0.37, 0 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"Gate L": {
+				"shear": [
+					{
+						"curve": [ 0.038, 0, 0.062, -7.61, 0.038, 0, 0.062, 0 ]
+					},
+					{
+						"time": 0.1,
+						"x": -7.61,
+						"curve": [ 0.23, -7.61, 0.37, -4.35, 0.23, 0, 0.37, 0 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"Gate R": {
+				"shear": [
+					{
+						"curve": [ 0.038, 0, 0.062, 9.02, 0.038, 0, 0.062, 0 ]
+					},
+					{
+						"time": 0.1,
+						"x": 9.02,
+						"curve": [ 0.23, 9.02, 0.37, 5.16, 0.23, 0, 0.37, 0 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"pilars": {
+				"rotate": [
+					{
+						"curve": [ 0.056, 0, 0.111, 1.54 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 1.54,
+						"curve": [ 0.278, 1.54, 0.389, 1.03 ]
+					},
+					{ "time": 0.5 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.056, 0, 0.111, 0, 0.056, 0, 0.111, 9.67 ]
+					},
+					{
+						"time": 0.1667,
+						"y": 9.67,
+						"curve": [ 0.278, 0, 0.389, 0, 0.278, 9.67, 0.389, 6.45 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"Pillars shade": {
+				"scale": [
+					{
+						"x": 1.508,
+						"y": 1.508,
+						"curve": [ 0.056, 1.508, 0.111, 1, 0.056, 1.508, 0.111, 1 ]
+					},
+					{ "time": 0.1667 }
+				]
+			},
+			"Pillars shade2": {
+				"scale": [
+					{ "x": 1.508, "y": 1.508, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"x": 1.508,
+						"y": 1.508,
+						"curve": [ 0.278, 1.508, 0.389, 1, 0.278, 1.508, 0.389, 1 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"Pillars shade3": {
+				"scale": [
+					{ "x": 1.508, "y": 1.508 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"gate broke 1": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 2": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 3": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 4": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 5": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 6": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 7": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 8": {
+				"attachment": [
+					{}
+				]
+			},
+			"gate broke 9": {
+				"attachment": [
+					{}
+				]
+			},
+			"Gate L": {
+				"attachment": [
+					{}
+				]
+			},
+			"Gate R": {
+				"attachment": [
+					{}
+				]
+			},
+			"Gem L": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Gem R": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gate clipping": {
+				"translate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 0, 0.333, 0, 0.667, -461.85 ]
+					},
+					{ "time": 1, "y": -461.85, "curve": "stepped" },
+					{ "time": 2.6667, "y": -461.85 }
+				]
+			},
+			"Pillars clipping": {
+				"translate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 0, 0.333, 0, 0.667, -467.86 ]
+					},
+					{ "time": 1, "y": -467.86 }
+				]
+			}
+		}
+	}
+}
+}

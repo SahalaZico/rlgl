@@ -1,0 +1,82 @@
+lose.png
+	size: 2048, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 1540, 101, 24, 27
+	offsets: 30, 31, 276, 87
+2
+	bounds: 1490, 291, 85, 27
+	offsets: 30, 31, 276, 87
+3
+	bounds: 1369, 674, 123, 27
+	offsets: 30, 31, 276, 87
+4
+	bounds: 1368, 21, 170, 27
+	offsets: 30, 31, 276, 87
+5
+	bounds: 726, 14, 219, 27
+	offsets: 30, 31, 276, 87
+BOARD RESULT
+	bounds: 947, 4, 224, 21
+	offsets: 18, 18, 259, 57
+LOSE
+	bounds: 726, 147, 187, 52
+	offsets: 0, 0, 188, 53
+	rotate: 90
+X
+	bounds: 1540, 2, 39, 46
+	offsets: 62, 61, 163, 168
+arrow
+	bounds: 1502, 101, 36, 33
+	offsets: 1, 1, 38, 34
+cable
+	bounds: 1126, 221, 489, 98
+	offsets: 2, 1, 493, 100
+	rotate: 90
+camera
+	bounds: 1125, 10, 247, 164
+camera stand
+	bounds: 1377, 358, 176, 140
+ornamen L back
+	bounds: 1377, 221, 194, 144
+	rotate: 90
+ornamen L front
+	bounds: 903, 306, 261, 221
+	offsets: 1, 1, 263, 223
+	rotate: 90
+ornamen R back
+	bounds: 1226, 503, 194, 141
+	rotate: 90
+ornamen R front
+	bounds: 902, 43, 261, 221
+	offsets: 1, 1, 263, 223
+	rotate: 90
+pink border
+	bounds: 2, 336, 789, 374
+	offsets: 1, 1, 791, 376
+plate
+	bounds: 1496, 493, 99, 90
+	offsets: 1, 1, 101, 92
+	rotate: 90
+red
+	bounds: 1540, 50, 40, 49
+	offsets: 1, 1, 42, 51
+screen black
+	bounds: 2, 2, 722, 332
+	offsets: 0, 0, 723, 332
+small screen
+	bounds: 1226, 221, 280, 149
+	offsets: 0, 1, 280, 150
+	rotate: 90
+speaker L
+	bounds: 1374, 50, 125, 169
+	offsets: 1, 1, 127, 171
+speaker R
+	bounds: 1369, 503, 125, 169
+	offsets: 1, 1, 127, 171
+try again
+	bounds: 792, 43, 667, 108
+	offsets: 60, 56, 785, 219
+	rotate: 90

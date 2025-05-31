@@ -1,0 +1,592 @@
+{
+"skeleton": {
+	"hash": "LzDD8YzQRfs",
+	"spine": "4.1.24",
+	"x": -498.77,
+	"y": -463.22,
+	"width": 1226.04,
+	"height": 986.39,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/Doll Nightmare/13-1-2025"
+},
+"bones": [
+	{ "name": "root", "x": -564, "y": 594 },
+	{ "name": "base", "parent": "root", "x": 566.16, "y": -566.76 },
+	{ "name": "finish bonus", "parent": "base", "x": -19.84, "y": 340.06, "scaleX": 1.2765, "scaleY": 1.2765 },
+	{ "name": "coin center", "parent": "base", "length": 269.27, "rotation": 91.21, "x": 2.83, "y": -150.19 },
+	{ "name": "center light", "parent": "root", "x": 566.16, "y": -585.82, "color": "ffcb18ff" },
+	{ "name": "bone4", "parent": "center light", "length": 271.5 },
+	{
+		"name": "coin",
+		"parent": "base",
+		"x": 476.38,
+		"y": -64.49,
+		"scaleX": 1.5738,
+		"scaleY": 1.5738,
+		"color": "ffda00ff"
+	},
+	{ "name": "bling", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 },
+	{ "name": "shiny", "parent": "coin center", "x": 185.06, "y": 86.05 },
+	{ "name": "bone5", "parent": "center light", "length": 271.5, "rotation": 60 },
+	{ "name": "bone6", "parent": "center light", "length": 271.5, "rotation": 120 },
+	{ "name": "bone7", "parent": "center light", "length": 271.5, "rotation": 180 },
+	{ "name": "bone8", "parent": "center light", "length": 271.5, "rotation": -120 },
+	{ "name": "bone9", "parent": "center light", "length": 271.5, "rotation": -60 },
+	{
+		"name": "coin2",
+		"parent": "base",
+		"x": 476.38,
+		"y": -64.49,
+		"scaleX": 1.5738,
+		"scaleY": 1.5738,
+		"color": "ffda00ff"
+	},
+	{
+		"name": "coin3",
+		"parent": "base",
+		"x": 476.38,
+		"y": -64.49,
+		"scaleX": 1.5738,
+		"scaleY": 1.5738,
+		"color": "ffda00ff"
+	},
+	{
+		"name": "coin4",
+		"parent": "base",
+		"x": 476.38,
+		"y": -64.49,
+		"scaleX": 1.5738,
+		"scaleY": 1.5738,
+		"color": "ffda00ff"
+	},
+	{
+		"name": "coin5",
+		"parent": "base",
+		"x": 476.38,
+		"y": -64.49,
+		"scaleX": 1.5738,
+		"scaleY": 1.5738,
+		"color": "ffda00ff"
+	},
+	{ "name": "bling2", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 },
+	{ "name": "bling3", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 },
+	{ "name": "bling4", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 },
+	{ "name": "bling5", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 },
+	{ "name": "bling6", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 },
+	{ "name": "bling7", "parent": "base", "x": 555.91, "y": 128.51, "scaleX": 1.0986, "scaleY": 1.0986 }
+],
+"slots": [
+	{ "name": "clip", "bone": "base" },
+	{ "name": "base", "bone": "base", "attachment": "base" },
+	{ "name": "frame stroke", "bone": "base", "attachment": "frame stroke" },
+	{ "name": "light", "bone": "bone4", "attachment": "light" },
+	{ "name": "light2", "bone": "bone5", "attachment": "light" },
+	{ "name": "light3", "bone": "bone6", "attachment": "light" },
+	{ "name": "light4", "bone": "bone7", "attachment": "light" },
+	{ "name": "light5", "bone": "bone8", "attachment": "light" },
+	{ "name": "light6", "bone": "bone9", "attachment": "light" },
+	{ "name": "coin", "bone": "coin center", "attachment": "coin" },
+	{ "name": "FINISH BONUS", "bone": "finish bonus" },
+	{ "name": "coin small", "bone": "finish bonus" },
+	{ "name": "coin1", "bone": "coin", "attachment": "coin6" },
+	{ "name": "coin2", "bone": "coin2", "attachment": "coin6" },
+	{ "name": "coin3", "bone": "coin3", "attachment": "coin6" },
+	{ "name": "coin4", "bone": "coin4", "attachment": "coin6" },
+	{ "name": "coin5", "bone": "coin5", "attachment": "coin6" },
+	{ "name": "light_yellow", "bone": "bling", "attachment": "light_yellow" },
+	{ "name": "light_yellow7", "bone": "bling7", "attachment": "light_yellow" },
+	{ "name": "light_yellow6", "bone": "bling6" },
+	{ "name": "light_yellow5", "bone": "bling5" },
+	{ "name": "light_yellow4", "bone": "bling4" },
+	{ "name": "light_yellow3", "bone": "bling3" },
+	{ "name": "Extra Cash", "bone": "finish bonus", "attachment": "EXTRA CASH" },
+	{ "name": "light_yellow2", "bone": "bling2" },
+	{ "name": "coin clip", "bone": "coin center", "attachment": "coin clip" },
+	{ "name": "shiny fx", "bone": "shiny", "attachment": "bright fx" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"base": {
+				"base": {
+					"type": "mesh",
+					"uvs": [ 0.94935, 0.0014, 0.96653, 0.01107, 0.97709, 0.019, 0.98749, 0.03057, 0.99861, 0.05153, 0.9986, 0.94744, 0.98797, 0.96928, 0.97247, 0.98577, 0.95037, 0.9986, 0.0483, 0.99861, 0.0222, 0.98183, 0.00882, 0.96386, 0.00141, 0.94782, 0.00131, 0.05664, 0.00777, 0.03794, 0.02023, 0.02112, 0.03642, 0.00863, 0.05494, 0.0014 ],
+					"triangles": [ 4, 0, 3, 15, 12, 13, 14, 15, 13, 16, 11, 12, 0, 4, 5, 15, 16, 12, 17, 10, 11, 16, 17, 11, 9, 10, 17, 17, 0, 8, 1, 3, 0, 7, 0, 5, 2, 3, 1, 6, 7, 5, 0, 7, 8, 8, 9, 17 ],
+					"vertices": [ 307.18, 313.77, 319.28, 306.97, 326.71, 301.38, 334.03, 293.24, 341.86, 278.48, 341.85, -352.24, 334.37, -367.61, 323.46, -379.22, 307.9, -388.25, -327.16, -388.26, -345.53, -376.45, -354.95, -363.8, -360.17, -352.5, -360.24, 274.88, -355.69, 288.05, -346.92, 299.89, -335.52, 308.68, -322.49, 313.77 ],
+					"hull": 18,
+					"edges": [ 0, 34, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34 ],
+					"width": 704,
+					"height": 704
+				}
+			},
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "base",
+					"vertexCount": 18,
+					"vertices": [ 307.18, 313.77, 319.28, 306.97, 326.71, 301.38, 334.03, 293.24, 341.86, 278.48, 341.85, -352.24, 334.37, -367.61, 323.46, -379.22, 307.9, -388.25, -327.16, -388.26, -345.53, -376.45, -354.95, -363.8, -360.17, -352.5, -360.24, 274.88, -355.69, 288.05, -346.92, 299.89, -335.52, 308.68, -322.48, 313.77 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"coin": {
+				"coin": {
+					"type": "mesh",
+					"uvs": [ 0.42111, 0, 0.58624, 0.00807, 0.70146, 0.02527, 0.69289, 0.31653, 0.75242, 0.32987, 0.88387, 0.42361, 0.9763, 0.55705, 1, 0.65988, 1, 0.68126, 0.98847, 0.7447, 0.89308, 0.88139, 0.75702, 0.88185, 0.65447, 0.82105, 0.59039, 0.76311, 0.56589, 0.91799, 0.42434, 0.98538, 0.30111, 1, 0.22665, 1, 0.09994, 0.97737, 0, 0.91358, 0.00415, 0.91288, 0.00156, 0.46235, 0.06138, 0.42749, 0.20769, 0.40767, 0.20266, 0.31006, 0.23033, 7.2E-4, 0.23019, 0.01411, 0.35412, 0 ],
+					"triangles": [ 26, 24, 25, 3, 1, 2, 13, 23, 24, 9, 6, 7, 8, 9, 7, 3, 0, 1, 13, 5, 12, 4, 13, 3, 5, 13, 4, 11, 12, 5, 5, 6, 11, 6, 9, 11, 9, 10, 11, 20, 21, 22, 27, 0, 24, 3, 13, 0, 18, 22, 23, 20, 22, 18, 27, 24, 26, 13, 24, 0, 13, 15, 23, 19, 20, 18, 14, 15, 13, 17, 18, 23, 23, 16, 17, 15, 16, 23 ],
+					"vertices": [ 300.28, 12.7, 295, -76.22, 286.44, -138.15, 163.65, -130.95, 157.35, -162.91, 116.31, -232.91, 58.96, -281.53, 15.31, -293.39, 6.29, -293.2, -20.35, -286.43, -76.94, -233.81, -75.58, -160.48, -48.77, -105.76, -23.6, -71.74, -88.66, -57.17, -115.49, 19.71, -120.26, 86.25, -119.42, 126.37, -108.43, 194.45, -80.38, 247.74, -80.14, 245.5, 109.98, 242.89, 124.01, 210.35, 130.71, 131.33, 171.95, 133.17, 302.15, 115.51, 296.5, 115.71, 301.04, 48.8 ],
+					"hull": 28,
+					"edges": [ 0, 54, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 38, 38, 40, 40, 42, 42, 44, 44, 46, 46, 48, 48, 50, 50, 52, 52, 54 ],
+					"width": 539,
+					"height": 422
+				}
+			},
+			"coin1": {
+				"coin1": { "width": 32, "height": 36 },
+				"coin2": { "x": 0.5, "y": 0.5, "width": 27, "height": 39 },
+				"coin3": { "y": 0.5, "width": 36, "height": 39 },
+				"coin4": { "y": 0.5, "width": 8, "height": 37 },
+				"coin5": { "width": 24, "height": 34 },
+				"coin6": { "x": 0.5, "y": 0.5, "width": 25, "height": 31 },
+				"coin7": { "width": 24, "height": 24 }
+			},
+			"coin2": {
+				"coin1": { "width": 32, "height": 36 },
+				"coin2": { "x": 0.5, "y": 0.5, "width": 27, "height": 39 },
+				"coin3": { "y": 0.5, "width": 36, "height": 39 },
+				"coin4": { "y": 0.5, "width": 8, "height": 37 },
+				"coin5": { "width": 24, "height": 34 },
+				"coin6": { "x": 0.5, "y": 0.5, "width": 25, "height": 31 },
+				"coin7": { "width": 24, "height": 24 }
+			},
+			"coin3": {
+				"coin1": { "width": 32, "height": 36 },
+				"coin2": { "x": 0.5, "y": 0.5, "width": 27, "height": 39 },
+				"coin3": { "y": 0.5, "width": 36, "height": 39 },
+				"coin4": { "y": 0.5, "width": 8, "height": 37 },
+				"coin5": { "width": 24, "height": 34 },
+				"coin6": { "x": 0.5, "y": 0.5, "width": 25, "height": 31 },
+				"coin7": { "width": 24, "height": 24 }
+			},
+			"coin4": {
+				"coin1": { "width": 32, "height": 36 },
+				"coin2": { "x": 0.5, "y": 0.5, "width": 27, "height": 39 },
+				"coin3": { "y": 0.5, "width": 36, "height": 39 },
+				"coin4": { "y": 0.5, "width": 8, "height": 37 },
+				"coin5": { "width": 24, "height": 34 },
+				"coin6": { "x": 0.5, "y": 0.5, "width": 25, "height": 31 },
+				"coin7": { "width": 24, "height": 24 }
+			},
+			"coin5": {
+				"coin1": { "width": 32, "height": 36 },
+				"coin2": { "x": 0.5, "y": 0.5, "width": 27, "height": 39 },
+				"coin3": { "y": 0.5, "width": 36, "height": 39 },
+				"coin4": { "y": 0.5, "width": 8, "height": 37 },
+				"coin5": { "width": 24, "height": 34 },
+				"coin6": { "x": 0.5, "y": 0.5, "width": 25, "height": 31 },
+				"coin7": { "width": 24, "height": 24 }
+			},
+			"coin clip": {
+				"coin clip": {
+					"type": "clipping",
+					"end": "coin clip",
+					"vertexCount": 28,
+					"vertices": [ 300.28, 12.7, 295, -76.22, 286.44, -138.15, 163.65, -130.95, 157.35, -162.91, 116.31, -232.91, 58.96, -281.53, 15.31, -293.39, 6.29, -293.2, -20.35, -286.43, -76.94, -233.81, -75.58, -160.48, -48.77, -105.76, -23.6, -71.74, -88.66, -57.17, -115.49, 19.71, -120.26, 86.25, -119.42, 126.37, -108.43, 194.45, -80.38, 247.74, -80.14, 245.5, 109.98, 242.89, 124.01, 210.35, 130.71, 131.33, 171.95, 133.17, 302.15, 115.51, 296.5, 115.71, 301.04, 48.8 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"coin small": {
+				"coin small": { "x": 343.48, "y": 5.66, "width": 132, "height": 138 }
+			},
+			"Extra Cash": {
+				"EXTRA CASH": { "x": -33.65, "y": -12.38, "scaleX": 1.0425, "scaleY": 1.0425, "width": 639, "height": 258 }
+			},
+			"FINISH BONUS": {
+				"FINISH BONUS": { "x": -39.82, "y": -18.3, "width": 671, "height": 258 }
+			},
+			"frame stroke": {
+				"frame stroke": { "x": -9.16, "y": -37.24, "width": 704, "height": 704 }
+			},
+			"light": {
+				"light": { "x": 239.15, "y": 0.5, "scaleX": 1.7569, "scaleY": 1.7569, "width": 298, "height": 85 }
+			},
+			"light2": {
+				"light": { "x": 239.15, "y": 0.5, "scaleX": 1.7569, "scaleY": 1.7569, "width": 298, "height": 85 }
+			},
+			"light3": {
+				"light": { "x": 239.15, "y": 0.5, "scaleX": 1.7569, "scaleY": 1.7569, "width": 298, "height": 85 }
+			},
+			"light4": {
+				"light": { "x": 239.15, "y": 0.5, "scaleX": 1.7569, "scaleY": 1.7569, "width": 298, "height": 85 }
+			},
+			"light5": {
+				"light": { "x": 239.15, "y": 0.5, "scaleX": 1.7569, "scaleY": 1.7569, "width": 298, "height": 85 }
+			},
+			"light6": {
+				"light": { "x": 239.15, "y": 0.5, "scaleX": 1.7569, "scaleY": 1.7569, "width": 298, "height": 85 }
+			},
+			"light_yellow": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"light_yellow2": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"light_yellow3": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"light_yellow4": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"light_yellow5": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"light_yellow6": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"light_yellow7": {
+				"light_yellow": { "x": 0.5, "y": 0.5, "width": 307, "height": 307 }
+			},
+			"shiny fx": {
+				"bright fx": { "x": -55.67, "y": -42.77, "rotation": -91.21, "width": 874, "height": 619 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"coin1": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "coin1" },
+					{ "time": 0.1333, "name": "coin2" },
+					{ "time": 0.2, "name": "coin3" },
+					{ "time": 0.2667, "name": "coin4" },
+					{ "time": 0.3333, "name": "coin5" },
+					{ "time": 0.4, "name": "coin6" },
+					{ "time": 0.4667, "name": "coin7" },
+					{ "time": 0.5333, "name": "coin2" },
+					{ "time": 0.6, "name": "coin3" }
+				]
+			},
+			"coin2": {
+				"rgba": [
+					{ "time": 0.5667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.6333, "name": "coin1" },
+					{ "time": 0.7, "name": "coin2" },
+					{ "time": 0.7667, "name": "coin3" },
+					{ "time": 0.8333, "name": "coin4" },
+					{ "time": 0.9, "name": "coin5" },
+					{ "time": 0.9667, "name": "coin6" },
+					{ "time": 1.0333, "name": "coin7" },
+					{ "time": 1.1, "name": "coin1" },
+					{ "time": 1.1667, "name": "coin2" }
+				]
+			},
+			"coin3": {
+				"rgba": [
+					{ "time": 0.4, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "coin4" },
+					{ "time": 0.5333, "name": "coin5" },
+					{ "time": 0.6, "name": "coin6" },
+					{ "time": 0.6667, "name": "coin7" },
+					{ "time": 0.7333, "name": "coin1" },
+					{ "time": 0.8, "name": "coin2" },
+					{ "time": 0.8667, "name": "coin3" },
+					{ "time": 0.9, "name": "coin2" },
+					{ "time": 0.9333, "name": "coin4" },
+					{ "time": 0.9667, "name": "coin2" }
+				]
+			},
+			"coin4": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "coin5" },
+					{ "time": 0.3, "name": "coin1" },
+					{ "time": 0.3667, "name": "coin2" },
+					{ "time": 0.4333, "name": "coin3" },
+					{ "time": 0.5, "name": "coin4" },
+					{ "time": 0.5667, "name": "coin5" },
+					{ "time": 0.6333, "name": "coin6" },
+					{ "time": 0.7, "name": "coin7" }
+				]
+			},
+			"coin5": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "coin1" },
+					{ "time": 0.1333, "name": "coin2" },
+					{ "time": 0.2, "name": "coin3" },
+					{ "time": 0.2667, "name": "coin4" },
+					{ "time": 0.3333, "name": "coin5" },
+					{ "time": 0.4, "name": "coin6" },
+					{ "time": 0.4667, "name": "coin7" },
+					{ "time": 0.5, "name": "coin1" },
+					{ "time": 0.5667, "name": "coin2" },
+					{ "time": 0.6333, "name": "coin3" },
+					{ "time": 1.0667, "name": "coin4" },
+					{ "time": 1.1333, "name": "coin5" }
+				]
+			},
+			"light_yellow": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"light_yellow2": {
+				"rgba": [
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1.0333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.7, "name": "light_yellow" }
+				]
+			},
+			"light_yellow3": {
+				"rgba": [
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "light_yellow" }
+				]
+			},
+			"light_yellow4": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "light_yellow" }
+				]
+			},
+			"light_yellow5": {
+				"rgba": [
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5333, "name": "light_yellow" }
+				]
+			},
+			"light_yellow6": {
+				"rgba": [
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "light_yellow" }
+				]
+			},
+			"light_yellow7": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"coin": {
+				"translate": [
+					{
+						"x": -377.28,
+						"y": -38.37,
+						"curve": [ 0.111, -377.28, 0.222, -308.01, 0.111, -38.37, 0.222, 70.34 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -223.81,
+						"y": 70.34,
+						"curve": [ 0.444, -139.62, 0.556, 70.34, 0.444, 70.34, 0.556, -121.5 ]
+					},
+					{ "time": 0.6667, "x": 70.34, "y": -121.5 }
+				],
+				"scale": [
+					{ "x": 4.389, "y": 4.389 }
+				]
+			},
+			"bling": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "value": -92.86 }
+				],
+				"translate": [
+					{ "x": -502.78 }
+				]
+			},
+			"center light": {
+				"rotate": [
+					{},
+					{ "time": 1.1667, "value": 60 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 1.326, "y": 1.326 },
+					{ "time": 0.5, "x": 0.818, "y": 0.818 },
+					{ "time": 1.1667 }
+				]
+			},
+			"finish bonus": {
+				"translate": [
+					{ "x": 76.97, "y": 24 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 0.84, "y": 0.84 },
+					{ "time": 0.3333, "x": 1.089, "y": 1.089 },
+					{ "time": 0.4, "x": 1.119, "y": 1.119 },
+					{ "time": 0.6667 }
+				]
+			},
+			"shiny": {
+				"translate": [
+					{ "x": 371.08, "y": 503.48, "curve": "stepped" },
+					{ "time": 0.2, "x": 371.08, "y": 503.48 },
+					{ "time": 0.6667, "x": -402.16, "y": -407.19 }
+				]
+			},
+			"coin2": {
+				"rotate": [
+					{ "time": 0.7, "value": -38.07 },
+					{ "time": 1.1667, "value": -88.22 }
+				],
+				"translate": [
+					{ "time": 0.5667, "x": -424.7, "y": 111.95 },
+					{ "time": 0.9667, "x": 8.34, "y": 317.77 }
+				],
+				"scale": [
+					{ "time": 0.5667, "x": 4.389, "y": 4.389 }
+				]
+			},
+			"coin3": {
+				"translate": [
+					{ "time": 0.4, "x": -438.03, "y": -124.7 },
+					{ "time": 1, "x": -633.07, "y": 201.43 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 4.389, "y": 4.389 }
+				]
+			},
+			"coin4": {
+				"translate": [
+					{ "x": -501.99, "y": 59.72 },
+					{ "time": 0.3667, "x": -828.12, "y": 481.76 },
+					{ "time": 0.6, "x": -965.6, "y": 369.86 }
+				],
+				"scale": [
+					{ "x": 4.389, "y": 4.389 }
+				]
+			},
+			"coin5": {
+				"translate": [
+					{ "x": -604.86, "y": -205.04 },
+					{ "time": 0.6, "x": -1007.72, "y": -6.81 }
+				],
+				"scale": [
+					{ "x": 4.389, "y": 4.389 }
+				]
+			},
+			"bling2": {
+				"rotate": [
+					{ "time": 0.7 },
+					{ "time": 1.1333, "value": -92.86 }
+				],
+				"translate": [
+					{ "time": 0.7, "x": -331.62, "y": -328.06 }
+				]
+			},
+			"bling3": {
+				"rotate": [
+					{ "time": 0.4667, "value": 424.74 },
+					{ "time": 0.9, "value": 331.88 }
+				],
+				"translate": [
+					{ "time": 0.4667, "x": -137.86, "y": -192.43 }
+				]
+			},
+			"bling4": {
+				"rotate": [
+					{ "time": 0.1333 },
+					{ "time": 0.5667, "value": -92.86 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": -688.2, "y": -449.29 }
+				]
+			},
+			"bling5": {
+				"rotate": [
+					{ "time": 0.5333 },
+					{ "time": 0.9667, "value": -92.86 }
+				],
+				"translate": [
+					{ "time": 0.5333, "x": -595.49, "y": -78.45 }
+				]
+			},
+			"bling6": {
+				"rotate": [
+					{ "time": 0.6667 },
+					{ "time": 1.1, "value": -92.86 }
+				],
+				"translate": [
+					{ "time": 0.6667, "x": -624.02, "y": -217.52 }
+				]
+			},
+			"bling7": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "value": -92.86 }
+				],
+				"translate": [
+					{ "x": -1014.78, "y": -430.03 }
+				],
+				"scale": [
+					{ "x": 1.722, "y": 1.722 }
+				]
+			}
+		}
+	}
+}
+}
