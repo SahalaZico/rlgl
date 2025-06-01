@@ -8,7 +8,7 @@ public static class StringUtility
     {
         string currencyCode = currency.ToLower();
         CultureInfo cultureInfo = new CultureInfo(currencyCode != "idr" ? "en-US" : "id-ID");
-        string formattedNumber = input.ToString(((int)input == input ? "N0" : "N2"), cultureInfo);
+        string formattedNumber = input.ToString("N0", cultureInfo);
         return formattedNumber;
     }
 

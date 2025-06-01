@@ -210,9 +210,16 @@ namespace HauntedHaven.Backend
             }
             else
             {
+                while (!LocalizationManager.Instance.LocalLoaded)
+                {
+                    yield return null;
+                }
+
                 string responseJson = request.downloadHandler.text;
                 Debug.Log("AuthData: " + responseJson);
                 UserDataResponse response = JsonUtility.FromJson<UserDataResponse>(responseJson);
+                if (LocalizationManager.Instance != null)
+                    LocalizationManager.Instance.SwitchLanguageTo(response.data.player.player_language.ToLower());
                 nextAction?.Invoke(response);
                 OnReturnAuthData?.Invoke(response);
             }

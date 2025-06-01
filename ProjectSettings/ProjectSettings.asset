@@ -139,7 +139,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.2b
+  bundleVersion: 0.0.16h
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -691,7 +691,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    WebGL: WEBGLINPUT_TAB;BESTHTTP_SOCKETIO_ENABLE_GAMEDEVWARE_MESSAGEPACK
+    Standalone: VUPLEX_CCU
+    WebGL: WEBGLINPUT_TAB;BESTHTTP_SOCKETIO_ENABLE_GAMEDEVWARE_MESSAGEPACK;VUPLEX_CCU
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

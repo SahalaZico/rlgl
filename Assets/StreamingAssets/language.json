@@ -1,0 +1,112 @@
+[
+  {
+    "en": {
+      "labels": {
+        "error_title": "Error",
+        "ok": "OK",
+        "start_game": "Start Game",
+        "how_to_play": "How to Play",
+        "special_mode": "Play Special Mode!",
+        "special_mode_title": "Special Mode",
+        "go": "GO!",
+        "auto": "AUTO",
+        "on": "ON",
+        "off": "OFF",
+        "change_building": "Change Building",
+        "confirm": "Confirm",
+        "purchase": "Purchase",
+        "stop": "Stop",
+        "audio": "Audio",
+        "bgm": "BGM",
+        "sfx": "SFX",
+        "bet": "BET",
+        "balance": "Balance",
+        "balance_title": "Balance:",
+        "history": "History",
+        "date": "Date",
+        "game": "Game",
+        "payout": "Payout",
+        "risk_title": "Risk:",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "price": "Price",
+        "pick_window": "Pick a window to open reward",
+        "bonus_mode_desc": "Instantly access \"Bonus Mode\" with the price of <b>{0}x</b> of your bet",
+        "jackpot_mode_desc": "Instantly access \"Jackpot Mode\" with the price of <b>{0}x</b> of your bet",
+        "insufficient_balance": "Insufficient balance"
+      },
+      "how_to_play": {
+        "pages": [
+          {
+            "content": "<div><h2>HOW TO PLAY</h2><h3>Bet Mechanism</h3><ul><li>Place your bet and select a risk level: <strong>Low</strong>, <strong>Medium</strong>, or <strong>High</strong>.</li><li>Higher risk levels offer bigger rewards but increase the chance of encountering fire.</li></ul><h3>Break Windows &amp; Save Residents</h3><ul><li>Play as Rough and break apartment windows to help residents escape while avoiding fire.</li><li>Each resident saved earns you a <strong>payout</strong>, which is <strong>instantly added</strong> to your balance.</li><li><strong>If hitting fire</strong>, no payout is given. Hitting fire doesn't end your game—it just means you missed out on that reward.</li></ul></div>"
+          },
+          {
+            "content": "<h3>Risk Levels &amp; Fire Chance</h3><p>Each game round contains 19 windows. Based on the risk level you choose, a set number of windows are randomly assigned as fire windows:</p><ul><li><strong>Low Risk:</strong> 3 Fire Windows / 19 Total</li><li><strong>Medium Risk:</strong> 6 Fire Windows / 19 Total</li><li><strong>High Risk:</strong> 9 Fire Windows / 19 Total</li></ul><h3>Reset System</h3><ul><li>After 10 windows breaking, the board <strong>resets</strong> with a new random layout of residents and fire.</li><li>You can keep playing endlessly—your winnings from saved residents are <strong>automatically added</strong> to your balance in real time.</li></ul>"
+          },
+          {
+            "content": "<h3>Bonus Round</h3><p>Occasionally, the character will receive a <strong>safe box</strong> from a rescued resident, triggering a <strong>Bonus Round</strong>. During this round:</p><ul><li>Residents offer <strong>random multiplier rewards</strong>.</li><li>Catch them to <strong>instantly multiply</strong> your winnings and boost your balance even more!</li></ul><h3>Mega Bonus Round</h3><p>Unlock the <strong>Mega Bonus Round</strong> by saving <strong>all possible residents</strong> in a round <strong>without hitting any fire</strong>. In this special round:</p><ul><li>You get <strong>4 chances</strong> to spin a slot-style mini-game.</li><li>Align matching symbols <strong>horizontally</strong>, <strong>vertically</strong>, or <strong>diagonally</strong> to earn <strong>huge payouts</strong>.</li></ul>"
+          },
+          {
+            "content": "<h2>HOW TO PLAY</h2><h3>How to Play:</h3><ol><li>Adjust your bet amount using the – or + button on the betting panel. <br><img src=\"1a.png\" alt=\"Betting Panel\" width=\"80%\"><br> Min Bet: IDR 1000 &nbsp;&nbsp;&nbsp; Max Bet: IDR 2000000 </li><li>Select a risk level: Low, Medium, or High <br><img src=\"1b.png\" alt=\"Risk Levels\" width=\"80%\"><br> Higher risk levels offer bigger rewards but increase the chance of encountering fire</li></ol>"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": {
+      "labels": {
+        "error_title": "Kesalahan",
+        "ok": "OKE",
+        "start_game": "Mulai Permainan",
+        "how_to_play": "Cara Bermain",
+        "special_mode": "Bermain Mode Spesial!",
+        "special_mode_title": "Mode Spesial",
+        "go": "GO!",
+        "auto": "AUTO",
+        "on": "ON",
+        "off": "OFF",
+        "change_building": "Ganti Gedung",
+        "confirm": "Konfirmasi",
+        "purchase": "Beli",
+        "stop": "Berhenti",
+        "audio": "Suara",
+        "bgm": "BGM",
+        "sfx": "SFX",
+        "bet": "BET",
+        "balance": "Saldo",
+        "balance_title": "Saldo:",
+        "history": "Riwayat",
+        "date": "Tanggal",
+        "game": "Permainan",
+        "payout": "Payout",
+        "risk_title": "Resiko:",
+        "low": "Rendah",
+        "medium": "Sedang",
+        "high": "Tinggi",
+        "price": "Harga",
+        "pick_window": "Pilih jendela untuk buka hadiah",
+        "bonus_mode_desc": "Akses langsung \"Mode Bonus\" dengan harga <b>{0}x</b> dari taruhan Anda",
+        "jackpot_mode_desc": "Akses langsung \"Mode Jackpot\" dengan harga <b>{0}x</b> dari taruhan Anda",
+        "insufficient_balance": "Saldo tidak cukup"
+      },
+      "how_to_play": {
+        "pages": [
+          {
+            "content": "<div><h2>HOW TO PLAY</h2><h3>Bet Mechanism</h3><ul><li>Place your bet and select a risk level: <strong>Low</strong>, <strong>Medium</strong>, or <strong>High</strong>.</li><li>Higher risk levels offer bigger rewards but increase the chance of encountering fire.</li></ul><h3>Break Windows &amp; Save Residents</h3><ul><li>Play as Rough and break apartment windows to help residents escape while avoiding fire.</li><li>Each resident saved earns you a <strong>payout</strong>, which is <strong>instantly added</strong> to your balance.</li><li><strong>If hitting fire</strong>, no payout is given. Hitting fire doesn't end your game—it just means you missed out on that reward.</li></ul></div>"
+          },
+          {
+            "content": "<h3>Risk Levels &amp; Fire Chance</h3><p>Each game round contains 19 windows. Based on the risk level you choose, a set number of windows are randomly assigned as fire windows:</p><ul><li><strong>Low Risk:</strong> 3 Fire Windows / 19 Total</li><li><strong>Medium Risk:</strong> 6 Fire Windows / 19 Total</li><li><strong>High Risk:</strong> 9 Fire Windows / 19 Total</li></ul><h3>Reset System</h3><ul><li>After 10 windows breaking, the board <strong>resets</strong> with a new random layout of residents and fire.</li><li>You can keep playing endlessly—your winnings from saved residents are <strong>automatically added</strong> to your balance in real time.</li></ul>"
+          },
+          {
+            "content": "<h3>Bonus Round</h3><p>Occasionally, the character will receive a <strong>safe box</strong> from a rescued resident, triggering a <strong>Bonus Round</strong>. During this round:</p><ul><li>Residents offer <strong>random multiplier rewards</strong>.</li><li>Catch them to <strong>instantly multiply</strong> your winnings and boost your balance even more!</li></ul><h3>Mega Bonus Round</h3><p>Unlock the <strong>Mega Bonus Round</strong> by saving <strong>all possible residents</strong> in a round <strong>without hitting any fire</strong>. In this special round:</p><ul><li>You get <strong>4 chances</strong> to spin a slot-style mini-game.</li><li>Align matching symbols <strong>horizontally</strong>, <strong>vertically</strong>, or <strong>diagonally</strong> to earn <strong>huge payouts</strong>.</li></ul>"
+          },
+          {
+            "content": "<h2>HOW TO PLAY</h2><h3>How to Play:</h3><ol><li>Adjust your bet amount using the – or + button on the betting panel. <br><img src=\"1a.png\" alt=\"Betting Panel\" width=\"80%\"><br> Min Bet: IDR 1000 &nbsp;&nbsp;&nbsp; Max Bet: IDR 2000000 </li><li>Select a risk level: Low, Medium, or High <br><img src=\"1b.png\" alt=\"Risk Levels\" width=\"80%\"><br> Higher risk levels offer bigger rewards but increase the chance of encountering fire</li></ol>"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -95,7 +95,7 @@ public class UIHandler : MonoBehaviour
         }
 
         chips = target_chips;
-        double playerBalance = userDataResponse.data.player.player_balance;
+        long playerBalance = userDataResponse.data.player.player_balance;
         var nfi = new NumberFormatInfo { NumberDecimalSeparator = ",", NumberGroupSeparator = "." };
         string result = playerBalance.ToString("#,##0", nfi);
         textBalance.text = "Balance: " + result;
