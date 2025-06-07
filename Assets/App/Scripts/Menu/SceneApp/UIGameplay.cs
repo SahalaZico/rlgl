@@ -212,7 +212,7 @@ public class UIGameplay : UIPage
     {
         return selectedStopMultiplier;
     }
-    public long GetUserBalance()
+    public double GetUserBalance()
     {
         return cacheUserData.data.player.player_balance;
     }
@@ -306,7 +306,7 @@ public class UIGameplay : UIPage
         inputBet.text = GetCurrency().ToUpper() + " " + StringUtility.ConvertDoubleToString(chip, GetCurrency());
     }
 
-    public void UpdateBalanceByAmount(long amount)
+    public void UpdateBalanceByAmount(double amount)
     {
         cacheUserData.data.player.player_balance = amount;
         UpdateBalance();
@@ -499,8 +499,8 @@ public class UIGameplay : UIPage
                     if (textshaWinAmount != null)
                         textshaWinAmount.text = textWinAmount.text;
                 }).OnComplete(() => {
-                    long currentBalance = GetUserBalance();
-                    currentBalance = currentBalance + (long)winAmount;
+                    double currentBalance = GetUserBalance();
+                    currentBalance = currentBalance + (double)winAmount;
                     UpdateBalanceByAmount(currentBalance);
                 });
             }
@@ -826,7 +826,7 @@ public class UIGameplay : UIPage
         gameManager.GameStart = true; //before this make sure assign data such as bonus event...
 
         long selectedChip = GetSelectedChipAmount();
-        long currentBalance = GetUserBalance();
+        double currentBalance = GetUserBalance();
         currentBalance = currentBalance - selectedChip;
         UpdateBalanceByAmount(currentBalance);
 

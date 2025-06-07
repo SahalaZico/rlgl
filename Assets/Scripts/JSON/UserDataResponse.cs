@@ -21,7 +21,7 @@ public class Player
     public string player_id = string.Empty;
     public string agent_id = string.Empty;
     public string player_name = string.Empty;
-    public long player_balance = 1350000;
+    public double player_balance = 1350000;
     public string player_currency = string.Empty;
     public string player_language = string.Empty;
     public string player_session = string.Empty;
@@ -34,9 +34,9 @@ public class LastBet
 {
     public string state = string.Empty;
     public int level = 0;
-    public long amount = 13500000;
+    public double amount = 13500000;
     public float multiplier = 0f;
-    public long amount_to_collect = 0;
+    public double amount_to_collect = 0;
 }
 
 [Serializable]
