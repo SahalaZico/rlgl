@@ -10,6 +10,6 @@ public class EnvProfiler : ScriptableObject
     public string socket = "https://donn22dev.saibara619.xyz/sim/";
     public bool useParser = true;
     public string code = "FOM00001";
-    public string userToken = "abcd123456";
+    public string userToken = "abcd123452";
     public string agentName = "meja-hoki";
 }

@@ -140,7 +140,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.3a
+  bundleVersion: 1.0.4b
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -715,7 +715,8 @@ PlayerSettings:
   scriptingBackend: {}
   il2cppCompilerConfiguration:
     WebGL: 2
-  il2cppCodeGeneration: {}
+  il2cppCodeGeneration:
+    WebGL: 1
   il2cppStacktraceInformation: {}
   managedStrippingLevel:
     EmbeddedLinux: 1

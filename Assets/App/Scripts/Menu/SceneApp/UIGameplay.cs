@@ -163,6 +163,7 @@ public class UIGameplay : UIPage
                 canvasBetMenu.interactable = true;
                 canvasAutoplaySettings.interactable = true;
                 currentRound = 0;
+                inputNumRound.text = StringUtility.ConvertDoubleToString(selectedNumRound);
             }
             else
             {
@@ -180,6 +181,8 @@ public class UIGameplay : UIPage
                 autoDelaySeq.AppendCallback(() => {
                     OnClickConfirmBet();
                 });
+
+                inputNumRound.text = StringUtility.ConvertDoubleToString(selectedNumRound - currentRound);
             }
         } else
         {

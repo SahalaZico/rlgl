@@ -1,0 +1,31 @@
+run and sprint.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Run button bottom
+	bounds: 2, 2, 514, 217
+Sprint button bottom
+	bounds: 2, 2, 514, 217
+Run button top
+	bounds: 2, 221, 514, 225
+	offsets: 1, 0, 515, 225
+Sprint button top
+	bounds: 2, 221, 514, 225
+	offsets: 1, 0, 515, 225
+Run!
+	bounds: 605, 52, 394, 90
+	offsets: 0, 1, 395, 91
+	rotate: 90
+Sprint!
+	bounds: 517, 7, 439, 85
+	offsets: 0, 1, 440, 86
+	rotate: 90
+icon run
+	bounds: 697, 302, 210, 144
+sprint icon
+	bounds: 697, 52, 210, 144
+	rotate: 90
+sprint star
+	bounds: 843, 79, 183, 113
+	rotate: 90
