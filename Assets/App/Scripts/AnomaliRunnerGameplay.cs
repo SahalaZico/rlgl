@@ -193,10 +193,6 @@ public class AnomaliRunnerGameplay : MonoBehaviour
 
         ClientSocketIO.Instance.SendEvent("startRunning");
         AudioManager.Instance.Play("sfx", "move", true);
-
-        skelePlayer.AnimationState.SetAnimation(0, "run", true);
-        isPlayerMove = true;
-        skeleCoinAbsorb.AnimationState.SetAnimation(0, "Loop", true);
     }
 
     protected void OnMoveCanceled(UnityEngine.InputSystem.InputAction.CallbackContext ctx)
@@ -207,10 +203,6 @@ public class AnomaliRunnerGameplay : MonoBehaviour
 
         ClientSocketIO.Instance.SendEvent("stopRunning");
         AudioManager.Instance.Stop("sfx", "move");
-
-        isPlayerMove = false;
-        int indexRandom = Random.Range(0, 3) + 1;
-        skelePlayer.AnimationState.SetAnimation(0, "stop_variation_" + indexRandom, false);
     }
 
     public void StopWarnScreen()
@@ -355,6 +347,14 @@ public class AnomaliRunnerGameplay : MonoBehaviour
             //PrintMultiplier
         }).SetEase(Ease.Linear);
 
+        if (!isPlayerMove)
+        {
+            skelePlayer.AnimationState.SetAnimation(0, "run", true);
+            skeleCoinAbsorb.AnimationState.SetAnimation(0, "Loop", true);
+
+            isPlayerMove = true;
+        }
+
         currentCoinAbsorb = skeleCoinAbsorb.transform.DOScale(Vector3.one * 1.3f, 0.3f);
 
         if (bonusHandler !=  null)
@@ -373,6 +373,10 @@ public class AnomaliRunnerGameplay : MonoBehaviour
 
         currentCoinAbsorb = skeleCoinAbsorb.transform.DOScale(Vector3.zero, 0.25f);
         skeleCoinAbsorb.AnimationState.SetAnimation(0, "Loop", false);
+
+        isPlayerMove = false;
+        int indexRandom = Random.Range(0, 3) + 1;
+        skelePlayer.AnimationState.SetAnimation(0, "stop_variation_" + indexRandom, false);
     }
 
     public void OnDollStateUpdate(SocketIO.AnomaliJSON.Response.DollState dollState)

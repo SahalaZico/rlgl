@@ -314,7 +314,9 @@ public class UIGameplay : UIPage
 
     protected void UpdateBalance()
     {
-        textBalance.text = string.Format("Balance: {0} {1}", GetCurrency().ToUpper(), StringUtility.ConvertDoubleToString(GetUserBalance(), GetCurrency()));
+        textBalance.text = string.Format("{0}: {1} {2}", LocalizationManager.Instance.GetVirtualTranslateText("balance"), 
+            GetCurrency().ToUpper(), 
+            StringUtility.ConvertDoubleToString(GetUserBalance(), GetCurrency()));
     }
 
     public void UpdateTextMultiplierInrunByAmount(double input)
